@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Biblioteca digital curada y comunitaria: lecturas, aprendizaje, creación, vida rural, territorio y cultura. Incluye materiales originales, archivos locales descargables y lectura integrada para textos.",
   "files": [
     {
@@ -1995,6 +1995,121 @@
       ],
       "publicationStatus": "publicado",
       "filePath": "archivos/disenos/lamina-bienvenidos.svg",
+      "rightsVerified": true
+    },
+    {
+      "id": "marcapaginas-jardin",
+      "title": "Tres señaladores de lectura",
+      "description": "Hoja SVG con tres señaladores botánicos para imprimir, recortar y regalar. Diseño original de AUTONOMÍA.",
+      "category": "crear",
+      "author": "Elías Martínez · AUTONOMÍA / Ocarina Producciones",
+      "format": "SVG",
+      "territory": "Uso general · Argentina y comunidad hispanohablante",
+      "sourceName": "Diseño original de AUTONOMÍA · Ocarina Producciones",
+      "sourceUrl": "https://creativecommons.org/licenses/by/4.0/deed.es",
+      "rightsLabel": "Diseño original · Creative Commons CC BY 4.0",
+      "rightsNote": "Material original creado para AUTONOMÍA. Se permite compartir y adaptar, incluso con fines comerciales, con atribución a Elías Martínez · AUTONOMÍA / Ocarina Producciones y enlace a https://creativecommons.org/licenses/by/4.0/deed.es.",
+      "tags": [
+        "señaladores",
+        "lectura",
+        "regalos",
+        "botánica",
+        "imprimir"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/disenos/marcapaginas-jardin.svg",
+      "rightsVerified": true
+    },
+    {
+      "id": "planificador-mensual",
+      "title": "Planificador mensual sin fechas",
+      "description": "Calendario mensual sin fechas, con espacio para prioridades. Se puede reutilizar todos los meses.",
+      "category": "imprimir",
+      "author": "Elías Martínez · AUTONOMÍA / Ocarina Producciones",
+      "format": "SVG",
+      "territory": "Uso general · Argentina y comunidad hispanohablante",
+      "sourceName": "Diseño original de AUTONOMÍA · Ocarina Producciones",
+      "sourceUrl": "https://creativecommons.org/licenses/by/4.0/deed.es",
+      "rightsLabel": "Diseño original · Creative Commons CC BY 4.0",
+      "rightsNote": "Material original creado para AUTONOMÍA. Se permite compartir y adaptar, incluso con fines comerciales, con atribución a Elías Martínez · AUTONOMÍA / Ocarina Producciones y enlace a https://creativecommons.org/licenses/by/4.0/deed.es.",
+      "tags": [
+        "calendario",
+        "organización",
+        "planificador",
+        "mes",
+        "imprimir"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/disenos/planificador-mensual.svg",
+      "rightsVerified": true
+    },
+    {
+      "id": "etiquetas-regalos",
+      "title": "Etiquetas para regalos y pequeños detalles",
+      "description": "Cuatro etiquetas vectoriales para imprimir, recortar y sumar a regalos, productos artesanales o pequeños presentes.",
+      "category": "crear",
+      "author": "Elías Martínez · AUTONOMÍA / Ocarina Producciones",
+      "format": "SVG",
+      "territory": "Uso general · Argentina y comunidad hispanohablante",
+      "sourceName": "Diseño original de AUTONOMÍA · Ocarina Producciones",
+      "sourceUrl": "https://creativecommons.org/licenses/by/4.0/deed.es",
+      "rightsLabel": "Diseño original · Creative Commons CC BY 4.0",
+      "rightsNote": "Material original creado para AUTONOMÍA. Se permite compartir y adaptar, incluso con fines comerciales, con atribución a Elías Martínez · AUTONOMÍA / Ocarina Producciones y enlace a https://creativecommons.org/licenses/by/4.0/deed.es.",
+      "tags": [
+        "etiquetas",
+        "regalos",
+        "emprendimientos",
+        "diseño",
+        "imprimir"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/disenos/etiquetas-para-regalar.svg",
+      "rightsVerified": true
+    },
+    {
+      "id": "colorear-paisaje",
+      "title": "Lámina para colorear: paisaje",
+      "description": "Dibujo vectorial en blanco y negro con montañas, río y vegetación. Una actividad abierta para colorear e imaginar.",
+      "category": "imprimir",
+      "author": "Elías Martínez · AUTONOMÍA / Ocarina Producciones",
+      "format": "SVG",
+      "territory": "Uso general · Argentina y comunidad hispanohablante",
+      "sourceName": "Diseño original de AUTONOMÍA · Ocarina Producciones",
+      "sourceUrl": "https://creativecommons.org/licenses/by/4.0/deed.es",
+      "rightsLabel": "Diseño original · Creative Commons CC BY 4.0",
+      "rightsNote": "Material original creado para AUTONOMÍA. Se permite compartir y adaptar, incluso con fines comerciales, con atribución a Elías Martínez · AUTONOMÍA / Ocarina Producciones y enlace a https://creativecommons.org/licenses/by/4.0/deed.es.",
+      "tags": [
+        "colorear",
+        "infancias",
+        "paisaje",
+        "dibujo",
+        "imprimir"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/disenos/lamina-para-colorear-paisaje.svg",
+      "rightsVerified": true
+    },
+    {
+      "id": "stickers-botanicos",
+      "title": "Hoja de stickers botánicos",
+      "description": "Hoja de ilustraciones originales inspiradas en hojas, flores y pequeños mensajes. Para imprimir y recortar como stickers decorativos.",
+      "category": "crear",
+      "author": "Elías Martínez · AUTONOMÍA / Ocarina Producciones",
+      "format": "SVG",
+      "territory": "Uso general · Argentina y comunidad hispanohablante",
+      "sourceName": "Diseño original de AUTONOMÍA · Ocarina Producciones",
+      "sourceUrl": "https://creativecommons.org/licenses/by/4.0/deed.es",
+      "rightsLabel": "Diseño original · Creative Commons CC BY 4.0",
+      "rightsNote": "Material original creado para AUTONOMÍA. Se permite compartir y adaptar, incluso con fines comerciales, con atribución a Elías Martínez · AUTONOMÍA / Ocarina Producciones y enlace a https://creativecommons.org/licenses/by/4.0/deed.es.",
+      "tags": [
+        "stickers",
+        "botánica",
+        "flores",
+        "decoración",
+        "ilustración"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/disenos/hoja-stickers-botanicos.svg",
       "rightsVerified": true
     }
   ],
