@@ -16,10 +16,10 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 8. Se conserva el texto o archivo fuente sin alteraciones sustantivas, junto con autoría, procedencia, atribución, licencia y avisos exigidos.
 9. No se inventan archivos ni se producen materiales para completar estantes. Es preferible publicar pocos archivos correctos.
 
-## Estado del catálogo · versión 0.8.0
+## Estado del catálogo · versión 0.8.1
 
-- **58 fichas** registradas.
-- **9 archivos publicados** y alojados localmente en `archivos/libros/`.
+- **61 fichas** registradas.
+- **12 archivos publicados** y alojados localmente en `archivos/libros/`.
 - **49 referencias en revisión**: no se muestran como descargas mientras falte el archivo local o la verificación de derechos.
 - El sitio solo muestra un archivo cuando tiene una ruta local válida dentro de `archivos/`, `publicationStatus: "publicado"` y `rightsVerified: true`.
 - Los enlaces externos se conservan como procedencia editorial en `sourceUrl`; nunca se usan como botones de acceso o descarga.
@@ -35,8 +35,11 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 7. **Don Quijote de la Mancha** — Miguel de Cervantes. Project Gutenberg, eBook #2000. TXT con licencia completa conservada.
 8. **Facundo · Civilización y barbarie** — Domingo Faustino Sarmiento. Project Gutenberg, eBook #33267. TXT con licencia completa conservada.
 9. **Azul…** — Rubén Darío. Project Gutenberg, eBook #52894. TXT con licencia completa conservada.
+10. **Pepita Jiménez** — Juan Valera. Project Gutenberg, eBook #17223. TXT con licencia completa conservada.
+11. **Los pazos de Ulloa** — Emilia Pardo Bazán. Project Gutenberg, eBook #18005. TXT con licencia completa conservada.
+12. **El sombrero de tres picos** — Pedro Antonio de Alarcón. Project Gutenberg, eBook #29506. TXT con licencia completa conservada.
 
-Las seis obras están en dominio público en Argentina según el plazo general aplicable a sus autores. En cinco archivos de Project Gutenberg se conserva íntegra la licencia del proyecto; en `El matadero` se incluye atribución a Wikisource y el enlace a CC BY-SA 4.0. La situación de cada obra y de cada transcripción se registra por separado: que una obra original sea de dominio público no vuelve automáticamente libre cualquier edición, traducción, prólogo, fotografía o ilustración.
+Las doce obras están en dominio público en Argentina según el plazo general aplicable a sus autores. En once archivos de Project Gutenberg se conserva íntegra la licencia del proyecto; en `El matadero` se incluye atribución a Wikisource y el enlace a CC BY-SA 4.0. La situación de cada obra y de cada transcripción se registra por separado: que una obra original sea de dominio público no vuelve automáticamente libre cualquier edición, traducción, prólogo, fotografía o ilustración.
 
 ## Grandes categorías de la biblioteca
 
