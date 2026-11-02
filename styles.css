@@ -136,3 +136,114 @@
  .reader-body{padding:23px 19px;font-size:17px;line-height:1.8}
  .reader-footer{padding:12px 17px;align-items:flex-start;flex-direction:column}
 }
+
+
+/* AUTONOMÍA 1.0.0 · rediseño rural, comunitario y amable */
+:root{--paper:#f5f1e6;--ink:#303b31;--muted:#70796c;--green:#657b5e;--green-dark:#3f5943;--orange:#c9825c;--line:#dedbcf;--white:#fffdf7;--sky:#e8eee8}
+body{background:var(--paper);color:var(--ink)}
+.topline{height:34px;background:#405a45;letter-spacing:1.4px;font-size:9px}
+.site-header{max-width:1240px;height:88px;border-color:#dedbcc}
+.brand-mark{background:#edf0e7;border:1px solid #87957b;color:#405a45}
+.brand-name{letter-spacing:1.8px}
+nav a{font-size:12px}
+nav .nav-button{border-color:#aebba8;border-radius:22px;padding:12px 20px}
+.hero{max-width:1240px;min-height:500px;padding:65px 7% 62px;gap:50px}
+.hero h1{font-size:clamp(42px,5.3vw,70px);line-height:1.08;letter-spacing:-3px;color:#354537}
+.hero h1 em{color:#71866a}
+.hero-lead{font-size:15px;line-height:1.9;color:#667064;max-width:490px}
+.primary-button{border-radius:30px;padding:16px 23px;background:#49634b;box-shadow:0 5px 0 #d6d9ca}
+.primary-button:hover{background:#354e39;transform:translateY(-1px)}
+.hero-note{font-size:11px}
+.rural-art{height:350px;max-width:480px;border-radius:48% 48% 14px 14px;background:linear-gradient(#e6eee9 0%,#edf0e6 63%,#d9e1cf 100%);overflow:hidden}
+.rural-sun{position:absolute;width:90px;height:90px;border-radius:50%;background:#e8c99d;right:65px;top:48px;box-shadow:0 0 0 15px #e8c99d33}
+.distant-hills{position:absolute;left:-5%;right:-5%;height:170px;bottom:80px;background:#b8c6ad;clip-path:polygon(0 70%,16% 35%,30% 58%,48% 15%,64% 55%,81% 30%,100% 68%,100% 100%,0 100%)}
+.field{position:absolute;left:-5%;right:-5%;bottom:0}
+.field-back{height:160px;background:#9caf8a;clip-path:ellipse(70% 55% at 52% 100%)}
+.field-front{height:105px;background:#829b73;clip-path:ellipse(70% 60% at 20% 100%)}
+.rural-house{position:absolute;z-index:3;bottom:104px;left:calc(50% - 50px);width:105px;height:86px}
+.house-roof{position:absolute;top:0;left:-8px;width:120px;height:50px;background:#9a6d55;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.house-body{position:absolute;left:10px;right:10px;top:37px;bottom:0;background:#f1e7d1;border:2px solid #bda98b}
+.house-door{position:absolute;z-index:2;bottom:0;left:43px;width:23px;height:42px;background:#8b7058;border-radius:12px 12px 0 0}
+.house-window{position:absolute;z-index:2;top:48px;left:19px;width:17px;height:17px;background:#b9d3d0;border:3px solid #8c927e}
+.rural-tree{position:absolute;z-index:4;bottom:90px;width:24px;height:82px}
+.rural-tree:before{content:"";position:absolute;left:9px;bottom:0;width:7px;height:47px;background:#806b50}
+.rural-tree:after{content:"";position:absolute;left:-11px;top:0;width:48px;height:49px;background:#668365;border-radius:48% 52% 45% 55%;box-shadow:12px 8px 0 -7px #829b73}
+.tree-one{left:18%}.tree-two{right:17%;transform:scale(.75);transform-origin:bottom}
+.rural-path{position:absolute;z-index:5;bottom:-8px;left:48%;width:90px;height:125px;background:#d8c4a1;clip-path:polygon(45% 0,58% 0,100% 100%,0 100%);opacity:.9}
+.garden-row{position:absolute;z-index:4;bottom:17px;left:7%;width:30%;height:35px;border-top:2px dashed #dce3bd;transform:rotate(-8deg)}
+.art-caption{z-index:6;bottom:17px;color:#405842;letter-spacing:1.4px;font-size:8px}
+.quick-stats{max-width:1120px;margin-bottom:75px;border-color:#d9d8ca}
+.quick-stats div{padding:0 22px}
+.quick-stats strong{color:#c9825c}
+.library-section{max-width:1120px}
+.section-heading h2{font-size:45px;color:#3c513d}
+.section-intro{font-size:13px;line-height:1.8;max-width:670px}
+.collection-count strong{color:#60795b}
+.review-note{background:#e9eddf;border-color:#829477;color:#596653;border-radius:0 8px 8px 0}
+.search-wrap{height:62px;border-radius:12px;background:#fffef9;border-color:#d8d9cb;box-shadow:0 4px 14px #4a60410a}
+.search-wrap input{font-size:13px}
+.filters{gap:9px}
+.filter{border-radius:24px;padding:10px 15px;font-size:11px}
+.category-grid{gap:12px}
+.category-card{border-radius:12px;min-height:150px;padding:17px;background:#fffef9;border-color:#e0dfd2}
+.category-card.selected{background:#e8eee4;border-color:#71886c;box-shadow:inset 0 0 0 1px #71886c}
+.category-icon{width:38px;height:38px;display:grid;place-items:center;background:#f0f1e7;border-radius:50%;font-size:20px}
+.category-name{font-size:12px}
+.category-description{font-size:10px;line-height:1.55}
+.category-count{font-size:9px;color:#52694f}
+.file-card{border-radius:12px;border-color:#e0ded2;padding:22px;background:#fffef9;box-shadow:0 3px 12px #36462b08}
+.file-card:hover{transform:translateY(-3px);box-shadow:0 12px 25px #36462b14}
+.file-type{border-radius:8px;background:#e9eee4;color:#4d674a}
+.territory-tag{background:#f2eee3;border-radius:20px}
+.file-card h3{font-size:15px;color:#354937}
+.file-card p{font-size:12px;line-height:1.75}
+.record-source{font-size:10px}
+.rights-note{border-radius:0 6px 6px 0}
+.read-link,.download-link{font-size:11px}
+.empty-state{border-radius:14px;background:#f8f6ee;border-color:#c9d0c0;padding:50px 20px}
+.empty-state h3{color:#3e5841}
+.collection-note{border-radius:12px;background:#ececdf;border-color:#dcddce;margin-bottom:75px}
+.manifesto{background:#e9ebdf}
+.manifesto-symbol{background:#f3f1e7}
+.manifesto h2{color:#405841}
+.donation-card{max-width:1060px;margin:0 auto 75px;padding:30px 34px;display:grid;grid-template-columns:62px 1fr 270px;gap:24px;align-items:center;background:#e9eee4;border:1px solid #d5ddce;border-radius:18px;box-shadow:0 7px 22px #45583d0c}
+.donation-flower{width:54px;height:54px;display:grid;place-items:center;border-radius:50%;background:#f7eee0;color:#c9825c;font-size:30px}
+.donation-copy .eyebrow{margin:0 0 7px}
+.donation-copy h2{font:700 25px Manrope,sans-serif;letter-spacing:-.7px;margin:0 0 8px;color:#3f5943}
+.donation-copy p:last-child{font-size:12px;line-height:1.8;color:#657060;margin:0;max-width:540px}
+.donation-alias{padding:17px 18px;background:#fffdf7;border:1px solid #d9dfd2;border-radius:12px;display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.donation-alias>span{font-size:8px;letter-spacing:1.5px;font-weight:700;color:#7a8474}
+.donation-alias>strong{font:700 19px Manrope,sans-serif;color:#3f5943;letter-spacing:.2px}
+.donation-alias button{border:0;border-radius:22px;background:#49634b;color:white;padding:10px 16px;font:700 10px "DM Sans",sans-serif;cursor:pointer}
+.donation-alias button:hover{background:#344d38}
+.donation-alias small{font-size:9px;line-height:1.5;color:#858b7e}
+footer{max-width:1120px}
+.footer-brand{color:#405841}
+@media(max-width:760px){
+ .hero{padding:48px 25px 45px;gap:26px}
+ .rural-art{height:300px;max-width:430px}
+ .quick-stats{margin-left:20px;margin-right:20px}
+ .donation-card{margin:0 20px 60px;grid-template-columns:50px 1fr;gap:16px;padding:22px}
+ .donation-flower{width:46px;height:46px}
+ .donation-alias{grid-column:1/-1;margin-left:0}
+}
+@media(max-width:480px){
+ .topline{font-size:8px;letter-spacing:1px}
+ .hero{padding:40px 18px 38px}
+ .hero h1{font-size:clamp(38px,10.5vw,47px);letter-spacing:-2.2px}
+ .hero-lead{font-size:13px}
+ .rural-art{height:245px}
+ .quick-stats{margin-left:15px;margin-right:15px}
+ .library-section{padding-left:15px;padding-right:15px}
+ .section-heading h2{font-size:35px}
+ .category-grid{gap:8px}
+ .category-card{padding:13px;min-height:138px}
+ .file-card{padding:18px}
+ .collection-note{margin-left:15px;margin-right:15px}
+ .donation-card{margin:0 15px 50px;padding:19px;grid-template-columns:40px 1fr;gap:13px;border-radius:14px}
+ .donation-flower{width:38px;height:38px;font-size:23px}
+ .donation-copy h2{font-size:21px}
+ .donation-copy p:last-child{font-size:11px}
+ .donation-alias{padding:15px;width:100%}
+}
+@media(prefers-reduced-motion:reduce){.file-card,.primary-button{transition:none!important}}
