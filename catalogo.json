@@ -68,6 +68,28 @@
         "bibliotecas",
         "normativa"
       ]
+    },
+    {
+      "id": "argentina-martin-fierro-publico",
+      "title": "El gaucho Martín Fierro",
+      "description": "Poema gauchesco fundamental de la literatura argentina. La edición enlazada está publicada por el Estado nacional dentro de sus recursos de dominio público.",
+      "category": "libros",
+      "author": "José Hernández (1834–1886)",
+      "format": "PDF",
+      "territory": "Argentina",
+      "sourceName": "Argentina.gob.ar · Recursos de dominio público",
+      "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/hernandez_jose_-_el_gaucho_martin_fierro.pdf",
+      "url": "https://www.argentina.gob.ar/sites/default/files/hernandez_jose_-_el_gaucho_martin_fierro.pdf",
+      "accessLabel": "Leer o descargar el PDF",
+      "rightsLabel": "Dominio público · identificado por fuente oficial",
+      "rightsNote": "El propio documento está rotulado como recurso de dominio público. Se conserva el enlace a la edición oficial.",
+      "tags": [
+        "literatura argentina",
+        "gauchesca",
+        "José Hernández",
+        "lectura",
+        "patrimonio"
+      ]
     }
   ]
 }
