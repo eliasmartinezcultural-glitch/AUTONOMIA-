@@ -16,10 +16,10 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 8. Se conserva el texto o archivo fuente sin alteraciones sustantivas, junto con autoría, procedencia, atribución, licencia y avisos exigidos.
 9. No se inventan archivos ni se producen materiales para completar estantes. Es preferible publicar pocos archivos correctos.
 
-## Estado del catálogo · versión 1.0.0
+## Estado del catálogo · versión 1.3.0
 
-- **61 fichas** registradas.
-- **12 archivos publicados** y alojados localmente en `archivos/libros/`.
+- **101 fichas** registradas.
+- **52 archivos publicados** y alojados localmente en `archivos/libros/`.
 - **49 referencias en revisión**: no se muestran como descargas mientras falte el archivo local o la verificación de derechos.
 - El sitio solo muestra un archivo cuando tiene una ruta local válida dentro de `archivos/`, `publicationStatus: "publicado"` y `rightsVerified: true`.
 - Los enlaces externos se conservan como procedencia editorial en `sourceUrl`; nunca se usan como botones de acceso o descarga.
@@ -115,10 +115,10 @@ Estas fuentes sirven para localizar futuras obras y recursos, pero no autorizan 
 La expansión prioriza archivos individuales listos para descarga, no catálogos de enlaces externos. Las fichas pendientes no se cuentan como publicaciones.
 
 
-## Auditoría y rediseño · versión 1.0.0
+## Auditoría y rediseño · versión 1.3.0
 
 Auditoría del repositorio en la rama main:
-- 61 fichas catalogadas: 12 obras publicadas y con archivo local; 49 referencias todavía en preparación.
+- 101 fichas catalogadas: 12 obras publicadas y con archivo local; 49 referencias todavía en preparación.
 - Los doce archivos del catálogo tienen rutas locales correspondientes a archivos presentes en `archivos/libros/`.
 - Las 49 referencias en preparación carecen de archivo local, no tienen estado publicado y no tienen verificación de derechos. Se mantienen fuera de las descargas.
 - Se corrigió el reconocimiento de extensiones TXT/MD en el lector integrado (la expresión regular anterior no reconocía correctamente los puntos de extensión).
@@ -127,3 +127,8 @@ Auditoría del repositorio en la rama main:
 - Se incorporó una tarjeta de colaboración voluntaria con el alias `ocarina.guitarra`. La colaboración no condiciona el acceso gratuito.
 - Se renovó la interfaz con una estética rural y comunitaria, mejor contraste, botones redondeados y un paisaje ilustrado en CSS.
 - No se aumentó artificialmente el número de descargas: para sumar una obra se requiere verificar el archivo y los derechos de redistribución en Argentina. Project Gutenberg advierte que sus declaraciones de copyright se basan en Estados Unidos y que cada usuario fuera de ese país debe comprobar la legislación local. <https://www.gutenberg.org/policy/terms_of_use> y <https://www.gutenberg.org/policy/license>.
+
+
+## Nueva colección internacional de ilustración
+
+Se incorporaron 40 archivos SVG originales de Kitbitz, una biblioteca de ilustraciones dibujadas a mano por un equipo internacional y publicadas bajo CC0 1.0. AUTONOMÍA no creó ni redibujó esas obras: conserva los archivos fuente, su procedencia y los créditos colectivos en `archivos/disenos/kitbitz/CREDITOS.md`. Los 27 materiales anteriormente atribuidos a Elías Martínez fueron retirados del catálogo y del repositorio.

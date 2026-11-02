@@ -1,24 +1,22 @@
 # Archivos alojados por AUTONOMÍA
 
-Esta carpeta contiene únicamente archivos que AUTONOMÍA tiene derecho a redistribuir. La versión 1.0.0 contiene doce archivos TXT locales, organizados dentro de `libros/`.
+Esta carpeta contiene obras y recursos terminados por terceros que AUTONOMÍA puede redistribuir. La versión 1.3.0 reúne 12 archivos TXT de literatura en dominio público y 40 ilustraciones SVG originales de Kitbitz bajo CC0 1.0.
 
-## Archivos actualmente publicados
+## Colección de ilustraciones
 
-- `libros/el-gaucho-martin-fierro.txt` — José Hernández · Project Gutenberg #14765 · licencia completa conservada.
-- `libros/la-vuelta-de-martin-fierro.txt` — José Hernández · Project Gutenberg #15066 · licencia completa conservada.
-- `libros/cuentos-de-amor-de-locura-y-de-muerte.txt` — Horacio Quiroga · Project Gutenberg #13507 · licencia completa conservada.
-- `libros/el-matadero-esteban-echeverria.txt` — Esteban Echeverría · texto original en dominio público; transcripción de Wikisource atribuida y bajo CC BY-SA 4.0.
-- `libros/marianela-benito-perez-galdos.txt` — Benito Pérez Galdós · Project Gutenberg #17340 · licencia completa conservada.
-- `libros/el-enemigo-jacinto-octavio-picon.txt` — Jacinto Octavio Picón · Project Gutenberg #29137 · licencia completa conservada.
+Los 40 SVG de `disenos/kitbitz/` pertenecen a la colección Kitbitz, impulsada por Sjoerd Huisman y un equipo de ilustradores. Son archivos vectoriales originales, no diseños creados por AUTONOMÍA. Los créditos colectivos, la licencia y la procedencia se documentan en `disenos/kitbitz/CREDITOS.md`.
+
+## Literatura
+
+Los 12 TXT de `libros/` corresponden a obras de autores como José Hernández, Horacio Quiroga, Esteban Echeverría, Benito Pérez Galdós, Jacinto Octavio Picón, Miguel de Cervantes, Domingo Faustino Sarmiento, Rubén Darío, Juan Valera, Emilia Pardo Bazán y Pedro Antonio de Alarcón. Cada ficha identifica su fuente y condiciones.
 
 ## Antes de incorporar un archivo
 
 - Verificá el permiso para redistribuir la obra exacta y la edición exacta.
 - No confundas acceso gratuito con permiso de copia.
 - Revisá licencias, atribución, restricciones comerciales, derechos de terceros y jurisdicción.
-- Conservá el archivo original sin modificaciones sustantivas y preservá todos los avisos de licencia.
-- Si se utiliza una transcripción o conversión, identificá la fuente y la licencia de esa versión.
-- Guardalo en una subcarpeta temática: libros, documentos, educacion, guias o imprimir.
-- Agregá su ficha a `catalogo.json` y completá `publicationStatus`, `filePath` y `rightsVerified` solo cuando esté listo.
+- Conservá el archivo fuente sin modificaciones sustantivas y preservá los avisos exigidos.
+- Identificá con precisión autoría, institución, editorial, colección, procedencia y licencia.
+- No presentes referencias externas como si fueran descargas locales.
 
-El sitio no usa enlaces externos como sustituto de la descarga: los botones públicos solo apuntan a rutas locales dentro de esta carpeta.
+Los botones públicos solo apuntan a rutas locales dentro de esta carpeta.
