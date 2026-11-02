@@ -1,4 +1,4 @@
-/* AUTONOMÍA — catálogo curado. Cada ficha distingue acceso y permisos de redistribución. */
+/* AUTONOMÍA — vidriera de obras existentes. No crea ni aloja materiales sin permiso. */
 const state = { category: "todos", query: "", files: [] };
 const grid = document.querySelector("#catalog-grid");
 const empty = document.querySelector("#empty-state");
@@ -7,7 +7,7 @@ const search = document.querySelector("#search-input");
 
 const categoryNames = {
   libros: "Libro", documentos: "Documento", educacion: "Educación",
-  guias: "Guía", otros: "Recurso"
+  guias: "Guía", otros: "Colección / recurso"
 };
 
 function safeText(value = "") {
@@ -17,9 +17,12 @@ function safeText(value = "") {
 }
 
 function safeLink(value = "") {
-  const url = String(value).trim();
-  if (/^https:\/\//i.test(url) || /^[a-z0-9._/-]+$/i.test(url)) return safeText(url);
-  return "#";
+  try {
+    const parsed = new URL(String(value).trim());
+    return parsed.protocol === "https:" ? safeText(parsed.href) : "#";
+  } catch {
+    return "#";
+  }
 }
 
 function render() {
@@ -28,7 +31,8 @@ function render() {
     const matchesCategory = state.category === "todos" || file.category === state.category;
     const haystack = [
       file.title, file.description, file.author, file.territory,
-      file.sourceName, ...(file.tags || [])
+      file.sourceName, file.rightsLabel, file.rightsNote, file.jurisdiction,
+      ...(file.tags || [])
     ].join(" ").toLocaleLowerCase("es");
     return matchesCategory && haystack.includes(query);
   });
@@ -37,19 +41,24 @@ function render() {
   empty.hidden = visible.length > 0;
   grid.innerHTML = visible.map(file => {
     const type = categoryNames[file.category] || "Recurso";
-    const extension = (file.format || "PDF").toUpperCase().slice(0, 4);
+    const extension = (file.format || "Archivo").toUpperCase().slice(0, 12);
     const url = safeLink(file.url || "");
     const sourceUrl = safeLink(file.sourceUrl || file.url || "");
     const action = url !== "#"
-      ? `<a class="download-link" href="${url}" target="_blank" rel="noopener noreferrer">${safeText(file.accessLabel || "Consultar material")} ↗</a>`
+      ? `<a class="download-link" href="${url}" target="_blank" rel="noopener noreferrer">${safeText(file.accessLabel || "Consultar en la fuente")} ↗</a>`
       : `<span class="download-link">Acceso pendiente</span>`;
+    const tags = (file.tags || []).slice(0, 4).map(tag =>
+      `<span class="record-tag">${safeText(tag)}</span>`
+    ).join("");
     return `<article class="file-card">
       <div class="card-topline"><span class="file-type" aria-label="${safeText(type)}">${safeText(extension)}</span><span class="territory-tag">${safeText(file.territory || "Colección general")}</span></div>
       <h3>${safeText(file.title)}</h3>
       <p>${safeText(file.description || "")}</p>
-      <div class="record-source">Fuente: <a href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${safeText(file.sourceName || file.author || "Fuente consultada")}</a></div>
-      <div class="rights-note"><strong>${safeText(file.rightsLabel || "Permisos por verificar")}</strong>${file.rightsNote ? `<span>${safeText(file.rightsNote)}</span>` : ""}</div>
-      <div class="file-meta"><span>${safeText(file.format || "Archivo")} · ${safeText(file.author || type)}</span>${action}</div>
+      <div class="record-tags">${tags}</div>
+      <div class="record-source">Autoría / institución: <strong>${safeText(file.author || "No identificada")}</strong></div>
+      <div class="record-source">Fuente: <a href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${safeText(file.sourceName || "Fuente consultada")}</a></div>
+      <div class="rights-note"><strong>${safeText(file.rightsLabel || "Permisos por verificar")}</strong><span>${safeText(file.rightsNote || "Consultar las condiciones de uso en la fuente original.")}</span></div>
+      <div class="file-meta"><span>${safeText(type)} · ${safeText(file.format || "Formato no indicado")}</span>${action}</div>
     </article>`;
   }).join("");
 
