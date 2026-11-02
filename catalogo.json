@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Vidriera digital curada: obras terminadas de terceros, con procedencia, derechos y acceso identificados.",
   "files": [
     {
@@ -13,8 +13,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Boletín Oficial de la Provincia del Neuquén · Edición 3001",
       "sourceUrl": "https://infoleg.neuquen.gob.ar/Boletines/bo06092903001a.pdf",
-      "url": "https://infoleg.neuquen.gob.ar/Boletines/bo06092903001a.pdf",
-      "accessLabel": "Consultar documento oficial",
       "rightsLabel": "Fuente oficial · redistribución no verificada",
       "rightsNote": "Se enlaza a la publicación oficial. AUTONOMÍA no aloja una copia.",
       "tags": [
@@ -23,7 +21,10 @@
         "derechos",
         "instituciones",
         "carta orgánica"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-ficha-municipal-1999-2000",
@@ -35,8 +36,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Dirección Provincial de Estadística y Censos del Neuquén",
       "sourceUrl": "https://www.estadisticaneuquen.gob.ar/static/archivos/Publicaciones/InfMunBasica/Basica99-00/Cartografia/San%20Patricio.PDF",
-      "url": "https://www.estadisticaneuquen.gob.ar/static/archivos/Publicaciones/InfMunBasica/Basica99-00/Cartografia/San%20Patricio.PDF",
-      "accessLabel": "Consultar ficha histórica",
       "rightsLabel": "Fuente oficial · redistribución no verificada",
       "rightsNote": "Se enlaza al archivo publicado por el organismo provincial.",
       "tags": [
@@ -45,7 +44,10 @@
         "estadística",
         "memoria",
         "municipio"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "argentina-ley-11723",
@@ -57,8 +59,6 @@
       "territory": "Argentina",
       "sourceName": "Argentina.gob.ar · texto actualizado",
       "sourceUrl": "https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion",
-      "url": "https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion",
-      "accessLabel": "Leer texto oficial",
       "rightsLabel": "Normativa oficial · consulta pública",
       "rightsNote": "Acceso al texto normativo en el sitio oficial. No se reproduce una copia.",
       "tags": [
@@ -67,7 +67,10 @@
         "licencias",
         "bibliotecas",
         "normativa"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "argentina-martin-fierro-publico",
@@ -79,8 +82,6 @@
       "territory": "Argentina",
       "sourceName": "Argentina.gob.ar · Recursos de dominio público",
       "sourceUrl": "https://www.argentina.gob.ar/sites/default/files/hernandez_jose_-_el_gaucho_martin_fierro.pdf",
-      "url": "https://www.argentina.gob.ar/sites/default/files/hernandez_jose_-_el_gaucho_martin_fierro.pdf",
-      "accessLabel": "Leer o descargar el PDF",
       "rightsLabel": "Dominio público · identificado por fuente oficial",
       "rightsNote": "El propio documento está rotulado como recurso de dominio público. Se conserva el enlace a la edición oficial.",
       "tags": [
@@ -89,7 +90,10 @@
         "José Hernández",
         "lectura",
         "patrimonio"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "argentina-facundo-sarmiento",
@@ -101,8 +105,6 @@
       "territory": "Argentina",
       "sourceName": "Project Gutenberg · eBook 33267",
       "sourceUrl": "https://www.gutenberg.org/ebooks/33267",
-      "url": "https://www.gutenberg.org/ebooks/33267",
-      "accessLabel": "Leer y descargar en la fuente",
       "rightsLabel": "Obra original en dominio público en Argentina",
       "rightsNote": "Autor fallecido en 1888. AUTONOMÍA enlaza a Project Gutenberg y no aloja esta edición. La fuente declara dominio público en Estados Unidos.",
       "tags": [
@@ -114,7 +116,10 @@
         "Facundo Quiroga"
       ],
       "jurisdiction": "Argentina · obra original",
-      "hosting": "Enlace externo; copia no alojada"
+      "hosting": "Enlace externo; copia no alojada",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "argentina-vuelta-martin-fierro",
@@ -126,8 +131,6 @@
       "territory": "Argentina",
       "sourceName": "Project Gutenberg · eBook 15066",
       "sourceUrl": "https://www.gutenberg.org/ebooks/15066",
-      "url": "https://www.gutenberg.org/ebooks/15066",
-      "accessLabel": "Leer y descargar en la fuente",
       "rightsLabel": "Obra original en dominio público en Argentina",
       "rightsNote": "Autor fallecido en 1886. La fuente declara dominio público en Estados Unidos. Se enlaza a la edición de origen; no se aloja una copia.",
       "tags": [
@@ -139,7 +142,10 @@
         "Martín Fierro"
       ],
       "jurisdiction": "Argentina · obra original",
-      "hosting": "Enlace externo; copia no alojada"
+      "hosting": "Enlace externo; copia no alojada",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "mundo-don-quijote",
@@ -151,8 +157,6 @@
       "territory": "Mundo hispanohablante",
       "sourceName": "Project Gutenberg · eBook 2000",
       "sourceUrl": "https://www.gutenberg.org/ebooks/2000",
-      "url": "https://www.gutenberg.org/ebooks/2000",
-      "accessLabel": "Leer y descargar en la fuente",
       "rightsLabel": "Obra original en dominio público",
       "rightsNote": "El autor falleció en 1616. La fuente declara dominio público en Estados Unidos. AUTONOMÍA conserva el enlace externo y no aloja el archivo.",
       "tags": [
@@ -164,7 +168,10 @@
         "lectura"
       ],
       "jurisdiction": "Argentina · obra original",
-      "hosting": "Enlace externo; copia no alojada"
+      "hosting": "Enlace externo; copia no alojada",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "mundo-azul-ruben-dario",
@@ -176,8 +183,6 @@
       "territory": "Hispanoamérica",
       "sourceName": "Project Gutenberg · eBook 52894",
       "sourceUrl": "https://www.gutenberg.org/ebooks/52894",
-      "url": "https://www.gutenberg.org/ebooks/52894",
-      "accessLabel": "Leer y descargar en la fuente",
       "rightsLabel": "Obra original en dominio público en Argentina",
       "rightsNote": "Autor fallecido en 1916. La fuente declara dominio público en Estados Unidos. La ficha enlaza a la edición digital de origen; no se aloja una copia.",
       "tags": [
@@ -189,7 +194,10 @@
         "literatura"
       ],
       "jurisdiction": "Argentina · obra original",
-      "hosting": "Enlace externo; copia no alojada"
+      "hosting": "Enlace externo; copia no alojada",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "argentina-biblioteca-nacional-digital",
@@ -201,8 +209,6 @@
       "territory": "Argentina",
       "sourceName": "Biblioteca Nacional · Servicios online",
       "sourceUrl": "https://www.bn.gob.ar/biblioteca/servicios/online",
-      "url": "https://www.bn.gob.ar/biblioteca/servicios/online",
-      "accessLabel": "Explorar la colección oficial",
       "rightsLabel": "Colección institucional · consultar ficha de cada obra",
       "rightsNote": "La institución identifica sus objetos digitales de dominio público. Verificá las condiciones particulares de cada registro antes de reutilizar o redistribuir.",
       "tags": [
@@ -215,7 +221,10 @@
         "hemeroteca"
       ],
       "jurisdiction": "Argentina · según ficha individual",
-      "hosting": "Portal externo; no se alojan materiales"
+      "hosting": "Portal externo; no se alojan materiales",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "mundo-bne-digital-publico",
@@ -227,8 +236,6 @@
       "territory": "Mundo hispanohablante",
       "sourceName": "Biblioteca Nacional de España · BNE Digital",
       "sourceUrl": "https://bnedigital.bne.es/",
-      "url": "https://bnedigital.bne.es/",
-      "accessLabel": "Explorar BNE Digital",
       "rightsLabel": "Dominio público / CC BY según registro",
       "rightsNote": "No toda la colección comparte las mismas condiciones. Comprobá la licencia visible en cada obra; el conjunto de dominio público se ofrece bajo las condiciones CC BY indicadas por la BNE.",
       "tags": [
@@ -241,7 +248,10 @@
         "libros antiguos"
       ],
       "jurisdiction": "Según ficha y licencia individual",
-      "hosting": "Portal externo; no se alojan materiales"
+      "hosting": "Portal externo; no se alojan materiales",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "ign-neuquen-mapas-a4",
@@ -253,8 +263,6 @@
       "territory": "Neuquén · Patagonia",
       "sourceName": "IGN · Mapas Escolares",
       "sourceUrl": "https://www.ign.gob.ar/areaservicios/descargas/mapasescolares",
-      "url": "https://www.ign.gob.ar/areaservicios/descargas/mapasescolares",
-      "accessLabel": "Ver y descargar mapas",
       "rightsLabel": "Creative Commons CC BY-SA 4.0",
       "rightsNote": "El IGN declara esta obra bajo CC BY-SA 4.0. Se permite compartir y adaptar con atribución y manteniendo la misma licencia. Consultá el portal oficial para elegir y descargar cada mapa.",
       "tags": [
@@ -267,7 +275,10 @@
         "Patagonia"
       ],
       "jurisdiction": "Licencia internacional CC BY-SA 4.0 declarada por el IGN",
-      "hosting": "Enlace a fuente oficial; no se aloja copia"
+      "hosting": "Enlace a fuente oficial; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "ign-argentina-planisferios",
@@ -279,8 +290,6 @@
       "territory": "Argentina · Mundo",
       "sourceName": "IGN · Mapas Escolares",
       "sourceUrl": "https://www.ign.gob.ar/areaservicios/descargas/mapasescolares",
-      "url": "https://www.ign.gob.ar/areaservicios/descargas/mapasescolares",
-      "accessLabel": "Ver y descargar mapas",
       "rightsLabel": "Creative Commons CC BY-SA 4.0",
       "rightsNote": "El IGN declara esta obra bajo CC BY-SA 4.0. Se permite compartir y adaptar con atribución y manteniendo la misma licencia. La descarga de cada mapa se realiza en el portal del IGN.",
       "tags": [
@@ -293,7 +302,10 @@
         "A4"
       ],
       "jurisdiction": "Licencia internacional CC BY-SA 4.0 declarada por el IGN",
-      "hosting": "Enlace a fuente oficial; no se aloja copia"
+      "hosting": "Enlace a fuente oficial; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "educar-mapoteca-imprimir",
@@ -305,8 +317,6 @@
       "territory": "Argentina",
       "sourceName": "Mapoteca Educ.ar",
       "sourceUrl": "https://mapoteca.educ.ar/",
-      "url": "https://mapoteca.educ.ar/",
-      "accessLabel": "Abrir la Mapoteca",
       "rightsLabel": "Acceso y descarga desde el portal · licencia por material",
       "rightsNote": "El portal informa opciones de descarga, impresión y compartir. No asumir una licencia general de redistribución: revisar condiciones del mapa elegido y enlazar a la fuente.",
       "tags": [
@@ -319,7 +329,10 @@
         "geografía"
       ],
       "jurisdiction": "Verificar condiciones de cada material",
-      "hosting": "Portal externo; no se alojan materiales"
+      "hosting": "Portal externo; no se alojan materiales",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "educar-recursos-imprimibles",
@@ -331,8 +344,6 @@
       "territory": "Argentina",
       "sourceName": "Educ.ar · Recursos",
       "sourceUrl": "https://www.educ.ar/recursos",
-      "url": "https://www.educ.ar/recursos",
-      "accessLabel": "Explorar recursos",
       "rightsLabel": "Permisos según la ficha de cada recurso",
       "rightsNote": "El portal reúne materiales de distintos autores y programas. Antes de redistribuir, comprobar licencia y atribución del recurso individual. AUTONOMÍA facilita el acceso al original.",
       "tags": [
@@ -345,7 +356,10 @@
         "estudiantes"
       ],
       "jurisdiction": "Según licencia individual",
-      "hosting": "Portal externo; no se alojan materiales"
+      "hosting": "Portal externo; no se alojan materiales",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "loc-juegos-imprimibles",
@@ -357,8 +371,6 @@
       "territory": "Colección internacional",
       "sourceName": "Library of Congress · Games for Fun and Relaxation",
       "sourceUrl": "https://www.loc.gov/free-to-use/games-for-fun-and-relaxation/",
-      "url": "https://www.loc.gov/free-to-use/games-for-fun-and-relaxation/",
-      "accessLabel": "Explorar juegos históricos",
       "rightsLabel": "Colección seleccionada como Free to Use and Reuse",
       "rightsNote": "La Library of Congress identifica esta selección como libre para usar y reutilizar. Revisar la nota de derechos de cada objeto y las normas aplicables fuera de Estados Unidos antes de republicar archivos.",
       "tags": [
@@ -371,7 +383,10 @@
         "ocio"
       ],
       "jurisdiction": "Declaración de uso de Library of Congress; verificar ámbito local",
-      "hosting": "Enlace a colección institucional; no se aloja copia"
+      "hosting": "Enlace a colección institucional; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "loc-libros-infantiles-clasicos",
@@ -383,8 +398,6 @@
       "territory": "Colección internacional",
       "sourceName": "Library of Congress · Classic Children's Books",
       "sourceUrl": "https://www.loc.gov/free-to-use/classic-childrens-books/",
-      "url": "https://www.loc.gov/free-to-use/classic-childrens-books/",
-      "accessLabel": "Explorar libros ilustrados",
       "rightsLabel": "Colección seleccionada como Free to Use and Reuse",
       "rightsNote": "La institución selecciona estos materiales para uso y reutilización. Verificar la nota de derechos de cada objeto y las leyes aplicables en el país desde el que se reutilice.",
       "tags": [
@@ -397,7 +410,10 @@
         "familias"
       ],
       "jurisdiction": "Declaración de uso de Library of Congress; verificar ámbito local",
-      "hosting": "Enlace a colección institucional; no se aloja copia"
+      "hosting": "Enlace a colección institucional; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "smithsonian-open-access-imagenes",
@@ -409,8 +425,6 @@
       "territory": "Colección internacional",
       "sourceName": "Smithsonian Open Access · FAQ y portal",
       "sourceUrl": "https://www.si.edu/openaccess",
-      "url": "https://www.si.edu/openaccess",
-      "accessLabel": "Explorar imágenes abiertas",
       "rightsLabel": "CC0 · solo objetos identificados con ese sello",
       "rightsNote": "La institución libera como CC0 los activos que llevan esa identificación. Revisar el registro individual: pueden existir derechos de terceros, marcas, privacidad u otras restricciones.",
       "tags": [
@@ -424,7 +438,10 @@
         "ilustraciones"
       ],
       "jurisdiction": "CC0 declarado por Smithsonian para cada activo identificado",
-      "hosting": "Enlace al registro original; no se aloja copia"
+      "hosting": "Enlace al registro original; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "met-open-access-obras",
@@ -436,8 +453,6 @@
       "territory": "Colección internacional",
       "sourceName": "The Met · Open Access",
       "sourceUrl": "https://www.metmuseum.org/es/hubs/open-access",
-      "url": "https://www.metmuseum.org/es/hubs/open-access",
-      "accessLabel": "Explorar obras Open Access",
       "rightsLabel": "CC0 · obras identificadas con el ícono OA",
       "rightsNote": "La política Open Access aplica a imágenes de obras de dominio público identificadas con OA. No confundir con otras imágenes del sitio: comprobar el distintivo OA en cada ficha.",
       "tags": [
@@ -451,7 +466,10 @@
         "láminas"
       ],
       "jurisdiction": "CC0 declarado para obras Open Access identificadas por el museo",
-      "hosting": "Enlace al registro original; no se aloja copia"
+      "hosting": "Enlace al registro original; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "loc-aves-imagenes-libre-uso",
@@ -463,8 +481,6 @@
       "territory": "Colección internacional",
       "sourceName": "Library of Congress · Birds",
       "sourceUrl": "https://www.loc.gov/free-to-use/birds/",
-      "url": "https://www.loc.gov/free-to-use/birds/",
-      "accessLabel": "Explorar imágenes de aves",
       "rightsLabel": "Colección seleccionada como Free to Use and Reuse",
       "rightsNote": "La institución selecciona estas imágenes para uso y reutilización. Revisar la ficha individual y su nota de derechos, especialmente antes de redistribuir copias fuera de Estados Unidos.",
       "tags": [
@@ -477,7 +493,10 @@
         "ilustración"
       ],
       "jurisdiction": "Declaración de uso de Library of Congress; verificar ámbito local",
-      "hosting": "Enlace a colección institucional; no se aloja copia"
+      "hosting": "Enlace a colección institucional; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "loc-vida-rural-granja",
@@ -489,8 +508,6 @@
       "territory": "Colección internacional",
       "sourceName": "Library of Congress · Farm Life",
       "sourceUrl": "https://www.loc.gov/free-to-use/farm-life/",
-      "url": "https://www.loc.gov/free-to-use/farm-life/",
-      "accessLabel": "Explorar archivo rural",
       "rightsLabel": "Colección seleccionada como Free to Use and Reuse",
       "rightsNote": "La institución presenta esta selección como libre para usar y reutilizar. Comprobar las notas de cada objeto y las normas aplicables en el país de reutilización.",
       "tags": [
@@ -503,7 +520,10 @@
         "imprimir"
       ],
       "jurisdiction": "Declaración de uso de Library of Congress; verificar ámbito local",
-      "hosting": "Enlace a colección institucional; no se aloja copia"
+      "hosting": "Enlace a colección institucional; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "loc-jardines-botanica",
@@ -515,8 +535,6 @@
       "territory": "Colección internacional",
       "sourceName": "Library of Congress · Gardens",
       "sourceUrl": "https://www.loc.gov/free-to-use/gardens/",
-      "url": "https://www.loc.gov/free-to-use/gardens/",
-      "accessLabel": "Explorar jardines y huertas",
       "rightsLabel": "Colección seleccionada como Free to Use and Reuse",
       "rightsNote": "La institución identifica esta selección como libre para usar y reutilizar, salvo indicación contraria en un objeto. Revisar cada ficha antes de redistribuir.",
       "tags": [
@@ -529,7 +547,10 @@
         "imprimir"
       ],
       "jurisdiction": "Declaración de uso de Library of Congress; verificar ámbito local",
-      "hosting": "Enlace a colección institucional; no se aloja copia"
+      "hosting": "Enlace a colección institucional; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "loc-carteles-historicos",
@@ -541,8 +562,6 @@
       "territory": "Colección internacional",
       "sourceName": "Library of Congress · Poster Parade",
       "sourceUrl": "https://www.loc.gov/free-to-use/poster-parade/",
-      "url": "https://www.loc.gov/free-to-use/poster-parade/",
-      "accessLabel": "Explorar carteles históricos",
       "rightsLabel": "Colección seleccionada como Free to Use and Reuse",
       "rightsNote": "La colección se presenta como libre para usar y reutilizar. Verificar derechos y restricciones de cada cartel en su ficha antes de reproducirlo o redistribuirlo.",
       "tags": [
@@ -555,7 +574,10 @@
         "imprimir"
       ],
       "jurisdiction": "Declaración de uso de Library of Congress; verificar ámbito local",
-      "hosting": "Enlace a colección institucional; no se aloja copia"
+      "hosting": "Enlace a colección institucional; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "openstax-libros-texto",
@@ -567,8 +589,6 @@
       "territory": "Colección internacional",
       "sourceName": "OpenStax · Higher Education",
       "sourceUrl": "https://openstax.org/subjects",
-      "url": "https://openstax.org/subjects",
-      "accessLabel": "Buscar libros y descargar PDF",
       "rightsLabel": "Creative Commons CC BY-NC-SA 4.0",
       "rightsNote": "Se permite compartir y adaptar con atribución y bajo la misma licencia, pero no usar con fines comerciales. Cada libro puede incluir componentes de terceros con condiciones propias; revisar sus avisos.",
       "tags": [
@@ -581,7 +601,10 @@
         "imprimir"
       ],
       "jurisdiction": "Licencia CC BY-NC-SA 4.0 según OpenStax",
-      "hosting": "Enlace al libro original; no se aloja copia"
+      "hosting": "Enlace al libro original; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "loc-mapas-ciudades",
@@ -593,8 +616,6 @@
       "territory": "Colección internacional",
       "sourceName": "Library of Congress · Maps of Cities",
       "sourceUrl": "https://www.loc.gov/free-to-use/maps-of-cities/",
-      "url": "https://www.loc.gov/free-to-use/maps-of-cities/",
-      "accessLabel": "Explorar mapas históricos",
       "rightsLabel": "Colección seleccionada como Free to Use and Reuse",
       "rightsNote": "La selección se ofrece como libre para usar y reutilizar; revisar la ficha y nota de derechos de cada mapa antes de redistribuir o adaptar.",
       "tags": [
@@ -607,7 +628,10 @@
         "planos"
       ],
       "jurisdiction": "Declaración de uso de Library of Congress; verificar ámbito local",
-      "hosting": "Enlace a colección institucional; no se aloja copia"
+      "hosting": "Enlace a colección institucional; no se aloja copia",
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "neuquen-mapoteca-digital-catastro",
@@ -619,8 +643,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Dirección Provincial de Catastro e Información Territorial · Neuquén",
       "sourceUrl": "https://dpc.neuquen.gob.ar/Mapa",
-      "url": "https://dpc.neuquen.gob.ar/Mapa",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Uso personal · no redistribuir sin autorización",
       "rightsNote": "Uso personal · no redistribuir sin autorización",
       "tags": [
@@ -628,7 +650,10 @@
         "mapas históricos",
         "cartografía",
         "escuela"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "neuquen-mapas-escolares-descargas",
@@ -640,8 +665,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Mapoteca provincial · mapas escolares",
       "sourceUrl": "https://dpc.neuquen.gov.ar/dpcasp/mapoteca_digital/mapas_escolares.asp",
-      "url": "https://dpc.neuquen.gov.ar/dpcasp/mapoteca_digital/mapas_escolares.asp",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Uso personal · consultar condiciones",
       "rightsNote": "Uso personal · consultar condiciones",
       "tags": [
@@ -649,7 +672,10 @@
         "Argentina bicontinental",
         "planisferio",
         "mapas mudos"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "neuquen-repositorio-educativo-cpe",
@@ -661,8 +687,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Consejo Provincial de Educación del Neuquén",
       "sourceUrl": "https://www.neuquen.edu.ar/repositorio-educativo/",
-      "url": "https://www.neuquen.edu.ar/repositorio-educativo/",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Condiciones según cada material",
       "rightsNote": "Condiciones según cada material",
       "tags": [
@@ -671,7 +695,10 @@
         "primaria",
         "secundaria",
         "Neuquén"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "neuquen-materiales-descarga-educacion",
@@ -683,8 +710,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Ministerio de Educación · Neuquén",
       "sourceUrl": "https://www.neuquen.edu.ar/materiales/",
-      "url": "https://www.neuquen.edu.ar/materiales/",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Permisos según documento",
       "rightsNote": "Permisos según documento",
       "tags": [
@@ -693,7 +718,10 @@
         "inclusión",
         "ambiente",
         "convivencia"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "neuquen-recursos-pedagogicos-pdf",
@@ -705,8 +733,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Educación Digital Neuquén",
       "sourceUrl": "https://educaciondigital.neuquen.gov.ar/recursos-pedagogicos/",
-      "url": "https://educaciondigital.neuquen.gov.ar/recursos-pedagogicos/",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Licencia según cada publicación",
       "rightsNote": "Licencia según cada publicación",
       "tags": [
@@ -715,7 +741,10 @@
         "manuales",
         "docentes",
         "Neuquén"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "educar-mapas-neuquen-individuales",
@@ -727,8 +756,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Instituto Geográfico Nacional · Educ.ar",
       "sourceUrl": "https://www.educ.ar/buscador?resources_categories=14&resources_formats=7&subjects=14&tag_resources=181",
-      "url": "https://www.educ.ar/buscador?resources_categories=14&resources_formats=7&subjects=14&tag_resources=181",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Revisar licencia de cada ficha",
       "rightsNote": "Revisar licencia de cada ficha",
       "tags": [
@@ -737,7 +764,10 @@
         "mapa físico",
         "mapa mudo",
         "A4"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "inta-huertas-recursos",
@@ -749,8 +779,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Instituto Nacional de Tecnología Agropecuaria (INTA)",
       "sourceUrl": "https://www.argentina.gob.ar/inta/servicio-de-atencion-ciudadana/huertas",
-      "url": "https://www.argentina.gob.ar/inta/servicio-de-atencion-ciudadana/huertas",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Condiciones según publicación",
       "rightsNote": "Condiciones según publicación",
       "tags": [
@@ -760,7 +788,10 @@
         "riego",
         "semillas",
         "rural"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "inta-manual-huerta-agroecologica",
@@ -772,8 +803,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "INTA · Programa Pro Huerta",
       "sourceUrl": "https://repositorio.inta.gob.ar/bitstream/handle/20.500.12123/15106/INTA_ProHuerta_Manual_de_la_huerta_agroecol%C3%B3gica.pdf?isAllowed=y&sequence=1",
-      "url": "https://repositorio.inta.gob.ar/bitstream/handle/20.500.12123/15106/INTA_ProHuerta_Manual_de_la_huerta_agroecol%C3%B3gica.pdf?isAllowed=y&sequence=1",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Fuente institucional · permisos a verificar",
       "rightsNote": "Fuente institucional · permisos a verificar",
       "tags": [
@@ -782,7 +811,10 @@
         "INTA",
         "cultivos",
         "PDF"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "inta-calendario-siembra",
@@ -794,8 +826,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "INTA · materiales de huerta",
       "sourceUrl": "https://www.argentina.gob.ar/inta/servicio-de-atencion-ciudadana/huertas",
-      "url": "https://www.argentina.gob.ar/inta/servicio-de-atencion-ciudadana/huertas",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Licencia según archivo",
       "rightsNote": "Licencia según archivo",
       "tags": [
@@ -804,7 +834,10 @@
         "planificador",
         "Patagonia",
         "imprimir"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "guitarra-acordes-chordwiki",
@@ -816,8 +849,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "ChordWiki",
       "sourceUrl": "https://chordwiki.com/printables/guitar-major-minor-chords/",
-      "url": "https://chordwiki.com/printables/guitar-major-minor-chords/",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Uso gratuito personal y de aula",
       "rightsNote": "Uso gratuito personal y de aula",
       "tags": [
@@ -827,7 +858,10 @@
         "principiantes",
         "mayores",
         "menores"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "guitarra-acordes-ocp-es",
@@ -839,8 +873,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "OCP · Oregon Catholic Press",
       "sourceUrl": "https://www.ocp.org/es-us/charts",
-      "url": "https://www.ocp.org/es-us/charts",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Permiso para músicos según OCP",
       "rightsNote": "Permiso para músicos según OCP",
       "tags": [
@@ -849,7 +881,10 @@
         "español",
         "música",
         "PDF"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "guitarra-plantillas-blancas-cc",
@@ -861,8 +896,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Dick Gordon Jr. Guitar Studio",
       "sourceUrl": "https://www.dickgordonjrmusicstudio.com/resources/guitar-downloads.html",
-      "url": "https://www.dickgordonjrmusicstudio.com/resources/guitar-downloads.html",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Creative Commons CC BY 3.0",
       "rightsNote": "Creative Commons CC BY 3.0",
       "tags": [
@@ -871,7 +904,10 @@
         "mástil",
         "plantillas",
         "CC BY"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "guitarra-handbook-ku",
@@ -883,8 +919,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Matney y Niemuth · University of Kansas",
       "sourceUrl": "https://kuscholarworks.ku.edu/bitstream/handle/1808/29433/Matney_Niemuth_2019_Guitar_Chord_Handbook.pdf",
-      "url": "https://kuscholarworks.ku.edu/bitstream/handle/1808/29433/Matney_Niemuth_2019_Guitar_Chord_Handbook.pdf",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Revisar licencia en repositorio",
       "rightsNote": "Revisar licencia en repositorio",
       "tags": [
@@ -893,7 +927,10 @@
         "manual",
         "música",
         "educación"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "biblioteca-nacional-objetos",
@@ -905,8 +942,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Biblioteca Nacional Mariano Moreno",
       "sourceUrl": "https://www.bn.gob.ar/biblioteca/servicios/online",
-      "url": "https://www.bn.gob.ar/biblioteca/servicios/online",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Dominio público según registro individual",
       "rightsNote": "Dominio público según registro individual",
       "tags": [
@@ -915,7 +950,10 @@
         "mapas",
         "partituras",
         "historia"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "biblioteca-argentina-lecturas",
@@ -927,8 +965,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Biblioteca Argentina · Lecturas digitales",
       "sourceUrl": "https://biblioargentina.gob.ar/web/lecturas-digitales/",
-      "url": "https://biblioargentina.gob.ar/web/lecturas-digitales/",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Derechos según editorial u obra",
       "rightsNote": "Derechos según editorial u obra",
       "tags": [
@@ -937,7 +973,10 @@
         "infancias",
         "editoriales",
         "dominio público"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "educar-materiales-inicial",
@@ -949,8 +988,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Educ.ar · Secretaría de Educación",
       "sourceUrl": "https://www.educ.ar/recursos/150922/materiales-para-la-educacion-inicial",
-      "url": "https://www.educ.ar/recursos/150922/materiales-para-la-educacion-inicial",
-      "accessLabel": "Explorar material",
       "rightsLabel": "CC BY-NC-SA según ficha consultada",
       "rightsNote": "CC BY-NC-SA según ficha consultada",
       "tags": [
@@ -959,7 +996,10 @@
         "matemática",
         "ciencias naturales",
         "juegos"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "argentina-libros-clasicos-pba",
@@ -971,8 +1011,6 @@
       "territory": "Neuquén · Argentina",
       "sourceName": "Gobierno de la Provincia de Buenos Aires",
       "sourceUrl": "https://gba.gob.ar/lecturas/libros_digitales",
-      "url": "https://gba.gob.ar/lecturas/libros_digitales",
-      "accessLabel": "Explorar material",
       "rightsLabel": "Dominio público según selección institucional",
       "rightsNote": "Dominio público según selección institucional",
       "tags": [
@@ -981,7 +1019,10 @@
         "Fausto",
         "teatro",
         "Alberdi"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-contacto-municipalidad",
@@ -993,8 +1034,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Municipalidad de San Patricio del Chañar",
       "sourceUrl": "https://sanpatricio.gob.ar/",
-      "url": "https://sanpatricio.gob.ar/",
-      "accessLabel": "Consultar fuente o ubicación",
       "rightsLabel": "Fuente oficial · verificar vigencia",
       "rightsNote": "Fuente oficial · verificar vigencia",
       "tags": [
@@ -1002,7 +1041,10 @@
         "teléfono",
         "correo",
         "trámites"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-contacto-hospital",
@@ -1014,8 +1056,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Ministerio de Salud · Neuquén",
       "sourceUrl": "https://salud.neuquen.gob.ar/lugar/hospital-san-patricio-del-chanar-dra-alicia-cruz/",
-      "url": "https://salud.neuquen.gob.ar/lugar/hospital-san-patricio-del-chanar-dra-alicia-cruz/",
-      "accessLabel": "Consultar fuente o ubicación",
       "rightsLabel": "Fuente oficial provincial",
       "rightsNote": "Fuente oficial provincial",
       "tags": [
@@ -1024,7 +1064,10 @@
         "guardia",
         "teléfono",
         "emergencias"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-contacto-bomberos",
@@ -1036,8 +1079,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Cuartel de Bomberos N.º 5",
       "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cuartel+de+Bomberos+5+San+Patricio+del+Chañar",
-      "url": "https://www.google.com/maps/search/?api=1&query=Cuartel+de+Bomberos+5+San+Patricio+del+Chañar",
-      "accessLabel": "Consultar fuente o ubicación",
       "rightsLabel": "Directorio público · confirmar teléfono",
       "rightsNote": "Directorio público · confirmar teléfono",
       "tags": [
@@ -1045,7 +1086,10 @@
         "incendios",
         "rescate",
         "emergencias"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-contacto-epen",
@@ -1057,8 +1101,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Ente Provincial de Energía del Neuquén",
       "sourceUrl": "https://www.epen.gov.ar/",
-      "url": "https://www.epen.gov.ar/",
-      "accessLabel": "Consultar fuente o ubicación",
       "rightsLabel": "Directorio local · verificar vigencia",
       "rightsNote": "Directorio local · verificar vigencia",
       "tags": [
@@ -1066,7 +1108,10 @@
         "electricidad",
         "reclamos",
         "cortes"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-contacto-biblioteca",
@@ -1078,8 +1123,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Biblioteca Popular San Patricio del Chañar",
       "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Biblioteca+Popular+San+Patricio+del+Chañar",
-      "url": "https://www.google.com/maps/search/?api=1&query=Biblioteca+Popular+San+Patricio+del+Chañar",
-      "accessLabel": "Consultar fuente o ubicación",
       "rightsLabel": "Directorio público · funcionamiento por confirmar",
       "rightsNote": "Directorio público · funcionamiento por confirmar",
       "tags": [
@@ -1087,7 +1130,10 @@
         "libros",
         "lectura",
         "comunidad"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-contacto-juzgado-paz",
@@ -1099,8 +1145,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Poder Judicial del Neuquén",
       "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Juzgado+de+Paz+San+Patricio+del+Chañar",
-      "url": "https://www.google.com/maps/search/?api=1&query=Juzgado+de+Paz+San+Patricio+del+Chañar",
-      "accessLabel": "Consultar fuente o ubicación",
       "rightsLabel": "Directorio público · verificar datos",
       "rightsNote": "Directorio público · verificar datos",
       "tags": [
@@ -1108,7 +1152,10 @@
         "trámites",
         "certificaciones",
         "justicia"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-contacto-registro-civil",
@@ -1120,8 +1167,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Registro Civil · Neuquén",
       "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Registro+Civil+San+Patricio+del+Chañar",
-      "url": "https://www.google.com/maps/search/?api=1&query=Registro+Civil+San+Patricio+del+Chañar",
-      "accessLabel": "Consultar fuente o ubicación",
       "rightsLabel": "Directorio público · verificar datos",
       "rightsNote": "Directorio público · verificar datos",
       "tags": [
@@ -1130,7 +1175,10 @@
         "actas",
         "identidad",
         "turnos"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     },
     {
       "id": "spch-contacto-zoonosis",
@@ -1142,8 +1190,6 @@
       "territory": "San Patricio del Chañar",
       "sourceName": "Municipalidad · Zoonosis",
       "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Quir%C3%B3fano+Municipal+Zoonosis+San+Patricio+del+Chañar",
-      "url": "https://www.google.com/maps/search/?api=1&query=Quir%C3%B3fano+Municipal+Zoonosis+San+Patricio+del+Chañar",
-      "accessLabel": "Consultar fuente o ubicación",
       "rightsLabel": "Directorio público · confirmar horarios",
       "rightsNote": "Directorio público · confirmar horarios",
       "tags": [
@@ -1152,7 +1198,11 @@
         "animales",
         "mascotas",
         "municipalidad"
-      ]
+      ],
+      "publicationStatus": "en_revision",
+      "filePath": null,
+      "rightsVerified": false
     }
-  ]
+  ],
+  "updated": "2026-11-02"
 }
