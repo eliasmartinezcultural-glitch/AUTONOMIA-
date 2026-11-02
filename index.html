@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e8">
+  <meta name="description" content="AUTONOMÍA — biblioteca digital abierta para encontrar, consultar y descargar libros, documentos y archivos.">
+  <title>AUTONOMÍA — Biblioteca abierta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline"><span class="topline-dot"></span> UNA BIBLIOTECA DIGITAL ABIERTA</div>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="AUTONOMÍA, inicio">
+      <span class="brand-mark">A<span>·</span></span>
+      <span class="brand-name">AUTONOMÍA<small>CONOCIMIENTO A MANO</small></span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#biblioteca">Biblioteca</a>
+      <a href="#acerca">El proyecto</a>
+      <a class="nav-button" href="#biblioteca">Explorar archivos <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">LEER · APRENDER · COMPARTIR</p>
+        <h1>El conocimiento<br>no debería tener<br><em>puertas cerradas.</em></h1>
+        <p class="hero-lead">Un espacio sencillo para encontrar libros, documentos y recursos digitales. Todo ordenado, accesible y a un paso de distancia.</p>
+        <a class="primary-button" href="#biblioteca">Entrar a la biblioteca <span>↓</span></a>
+        <div class="hero-note"><span class="note-icon">✳</span> Acceso simple. Sin cuentas. Sin barreras.</div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración de libros y documentos" role="img">
+        <div class="sun"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="book book-back"><span></span></div>
+        <div class="book book-middle"><span></span></div>
+        <div class="book book-front"><span></span><i></i></div>
+        <div class="paper paper-one"><b>IDEAS</b><span></span><span></span><span></span></div>
+        <div class="paper paper-two">✳</div>
+        <div class="art-caption">UN MUNDO DE IDEAS<br>AL ALCANCE DE TODOS</div>
+      </div>
+    </section>
+
+    <section class="quick-stats" aria-label="Características">
+      <div><strong>01</strong><span>Encontrar</span><small>Buscá por título o tema</small></div>
+      <div><strong>02</strong><span>Explorar</span><small>Recorré por categorías</small></div>
+      <div><strong>03</strong><span>Acceder</span><small>Consultá y descargá</small></div>
+      <div><strong>04</strong><span>Compartir</span><small>El saber circula</small></div>
+    </section>
+
+    <section class="library-section" id="biblioteca">
+      <div class="section-heading">
+        <div><p class="eyebrow">EL ARCHIVO COMÚN</p><h2>La biblioteca</h2><p class="section-intro">Un lugar para descubrir algo nuevo o encontrar eso que estabas buscando.</p></div>
+        <div class="collection-count"><strong id="result-count">0</strong><span>ARCHIVOS<br>DISPONIBLES</span></div>
+      </div>
+      <div class="search-wrap">
+        <span class="search-icon">⌕</span>
+        <input id="search-input" type="search" placeholder="¿Qué estás buscando? Un libro, un tema, una palabra..." aria-label="Buscar en la biblioteca">
+        <kbd>BUSCAR</kbd>
+      </div>
+      <div class="filters" id="category-filters" aria-label="Filtrar por categoría">
+        <button class="filter active" data-category="todos">Todo</button>
+        <button class="filter" data-category="libros">Libros</button>
+        <button class="filter" data-category="documentos">Documentos</button>
+        <button class="filter" data-category="educacion">Educación</button>
+        <button class="filter" data-category="guias">Guías y manuales</button>
+        <button class="filter" data-category="otros">Otros archivos</button>
+      </div>
+      <div class="catalog-grid" id="catalog-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state">
+        <div class="empty-symbol">✳</div>
+        <h3>La biblioteca está preparando sus estantes.</h3>
+        <p>Pronto vas a encontrar acá libros, documentos y materiales para consultar y descargar.</p>
+        <span>ESTE ESPACIO ESTÁ LISTO PARA RECIBIR ARCHIVOS</span>
+      </div>
+    </section>
+
+    <section class="manifesto" id="acerca">
+      <div class="manifesto-symbol">A<span>·</span></div>
+      <div><p class="eyebrow">UNA IDEA SENCILLA</p><h2>El saber crece<br>cuando se comparte.</h2></div>
+      <p class="manifesto-text">AUTONOMÍA es una biblioteca digital estática: organiza materiales, facilita su acceso y permite descargarlos directamente. No hace falta registrarse ni instalar nada. Cada archivo debe contar con autorización de distribución, licencia compatible o estar en dominio público.</p>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="./">AUTONOMÍA<span>·</span></a><p>Una biblioteca abierta para aprender, consultar y compartir.</p><span class="footer-credit">UN PROYECTO EN CONSTRUCCIÓN</span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
