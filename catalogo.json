@@ -1,7 +1,7 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.8.1",
-  "description": "Biblioteca digital curada por grandes categorías y actividades: lectura, aprendizaje, creación, vida rural, territorio y cultura. Archivos alojados localmente y derechos verificados.",
+  "version": "0.9.0",
+  "description": "Biblioteca digital curada por grandes categorías y actividades: lectura, aprendizaje, creación, vida rural, territorio y cultura. Archivos alojados localmente y derechos verificados. Incluye lectura integrada para textos.",
   "files": [
     {
       "id": "spch-carta-organica-2006",
