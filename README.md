@@ -16,10 +16,10 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 8. Se conserva el texto o archivo fuente sin alteraciones sustantivas, junto con autoría, procedencia, atribución, licencia y avisos exigidos.
 9. No se inventan archivos ni se producen materiales para completar estantes. Es preferible publicar pocos archivos correctos.
 
-## Estado del catálogo · versión 0.7.6
+## Estado del catálogo · versión 0.8.0
 
-- **55 fichas** registradas.
-- **6 archivos publicados** y alojados localmente en `archivos/libros/`.
+- **58 fichas** registradas.
+- **9 archivos publicados** y alojados localmente en `archivos/libros/`.
 - **49 referencias en revisión**: no se muestran como descargas mientras falte el archivo local o la verificación de derechos.
 - El sitio solo muestra un archivo cuando tiene una ruta local válida dentro de `archivos/`, `publicationStatus: "publicado"` y `rightsVerified: true`.
 - Los enlaces externos se conservan como procedencia editorial en `sourceUrl`; nunca se usan como botones de acceso o descarga.
@@ -32,8 +32,17 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 4. **El matadero** — Esteban Echeverría. Texto original en dominio público; transcripción atribuida a Wikisource, redistribuida bajo CC BY-SA 4.0.
 5. **Marianela** — Benito Pérez Galdós. Project Gutenberg, eBook #17340. TXT con licencia completa conservada.
 6. **El enemigo** — Jacinto Octavio Picón. Project Gutenberg, eBook #29137, segunda edición de 1887. TXT con licencia completa conservada.
+7. **Don Quijote de la Mancha** — Miguel de Cervantes. Project Gutenberg, eBook #2000. TXT con licencia completa conservada.
+8. **Facundo · Civilización y barbarie** — Domingo Faustino Sarmiento. Project Gutenberg, eBook #33267. TXT con licencia completa conservada.
+9. **Azul…** — Rubén Darío. Project Gutenberg, eBook #52894. TXT con licencia completa conservada.
 
 Las seis obras están en dominio público en Argentina según el plazo general aplicable a sus autores. En cinco archivos de Project Gutenberg se conserva íntegra la licencia del proyecto; en `El matadero` se incluye atribución a Wikisource y el enlace a CC BY-SA 4.0. La situación de cada obra y de cada transcripción se registra por separado: que una obra original sea de dominio público no vuelve automáticamente libre cualquier edición, traducción, prólogo, fotografía o ilustración.
+
+## Grandes categorías de la biblioteca
+
+El catálogo se organiza en diez puertas de entrada: Lecturas; Aprender y enseñar; Huerta y vida rural; Naturaleza y ciencia; Mapas y territorio; Crear y diseñar; Para imprimir y jugar; Oficios y trabajo; Vida cotidiana; Historia y cultura.
+
+Las categorías pueden estar visibles aunque todavía no tengan descargas publicadas. En ese caso la interfaz las marca como “Colección en preparación” y no muestra resultados inventados. El contador público cuenta exclusivamente archivos alojados y autorizados.
 
 ## Cómo publicar un archivo
 
