@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Vidriera digital curada: obras terminadas de terceros, con procedencia, derechos y acceso identificados.",
   "files": [
     {
@@ -1249,6 +1249,30 @@
       ],
       "publicationStatus": "publicado",
       "filePath": "archivos/libros/la-vuelta-de-martin-fierro.txt",
+      "rightsVerified": true
+    },
+    {
+      "id": "cuentos-amor-locura-muerte-quiroga-pg13507",
+      "title": "Cuentos de amor, de locura y de muerte",
+      "description": "Colección de relatos de Horacio Quiroga publicada originalmente en 1917. Incluye cuentos como La gallina degollada, El almohadón de pluma, A la deriva y La insolación. Texto en español con el aviso y la licencia completa de Project Gutenberg.",
+      "category": "libros",
+      "author": "Horacio Quiroga (1878–1937)",
+      "format": "TXT",
+      "territory": "Argentina · Uruguay · Hispanoamérica",
+      "sourceName": "Project Gutenberg · eBook #13507",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/13507",
+      "rightsLabel": "Obra original en dominio público en Argentina · licencia completa conservada",
+      "rightsNote": "Horacio Quiroga falleció en 1937. Bajo el plazo general de 70 años del art. 5 de la Ley 11.723, sus obras originales ingresaron al dominio público argentino el 01/01/2008. El archivo conserva íntegro el aviso y la licencia de Project Gutenberg. Se publica el texto sin añadir ilustraciones ni materiales editoriales ajenos.",
+      "tags": [
+        "literatura rioplatense",
+        "cuentos",
+        "Horacio Quiroga",
+        "narrativa",
+        "lectura",
+        "clásicos"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/cuentos-de-amor-de-locura-y-de-muerte.txt",
       "rightsVerified": true
     }
   ],
