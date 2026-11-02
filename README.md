@@ -16,13 +16,13 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 8. No se altera el archivo original. Se conserva autoría, procedencia, atribución, licencia y avisos exigidos.
 9. No se inventan archivos ni se producen materiales para completar estantes. Es preferible publicar pocos archivos correctos.
 
-## Estado unificado · versión 0.7.0
+## Estado unificado · versión 0.7.1
 
 Las ramas de trabajo anteriores desarrollaron distintas etapas de AUTONOMÍA. La rama principal ya contenía la colección ampliada de 49 fichas. Esta actualización conserva esas referencias como material de investigación, pero corrige la diferencia entre una ficha que apunta a otro sitio y un archivo realmente disponible dentro de AUTONOMÍA.
 
-- 49 referencias de materiales y servicios investigados, conservadas en catalogo.json.
-- 0 archivos habilitados para descarga local en esta actualización.
-- Las 49 referencias quedan marcadas en_revision, sin ruta local y sin derechos de redistribución confirmados.
+- 49 referencias anteriores continúan en revisión, sin ruta local y sin derechos de redistribución confirmados.
+- 1 archivo real está alojado dentro de archivos/ y disponible para descarga directa.
+- Primer archivo publicado: El gaucho Martín Fierro, de José Hernández (Project Gutenberg, eBook #14765), en texto plano con la licencia completa conservada.
 - El sitio solo muestra un archivo cuando tiene una ruta local válida dentro de archivos/, publicationStatus: publicado y rightsVerified: true.
 - Los enlaces externos se conservan como procedencia editorial en sourceUrl; no se usan como botones de acceso o descarga.
 - Se reparó un carácter literal que había quedado en el HTML.
@@ -67,7 +67,7 @@ Sitio estático, gratuito, sin cuentas, sin backend ni base de datos. Diseñado 
 
 ## Publicación
 
-GitHub Pages puede publicar la raíz de main si está habilitado en la configuración del repositorio. Esta actualización no confirma por sí sola que Pages esté activo ni que el sitio público se haya actualizado.
+GitHub Pages puede publicar la raíz de main si está habilitado en la configuración del repositorio. La incorporación del primer archivo no confirma por sí sola que Pages esté activo ni que el sitio público se haya actualizado.
 
 ## Principio de crecimiento
 
