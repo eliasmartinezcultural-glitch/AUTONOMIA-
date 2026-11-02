@@ -11,7 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>\n  <a class="skip-link" href="#biblioteca">Saltar al contenido</a>
+<body>
+  <a class="skip-link" href="#biblioteca">Saltar al contenido</a>
   <div class="topline"><span class="topline-dot"></span> UNA BIBLIOTECA DIGITAL ABIERTA</div>
   <header class="site-header">
     <a class="brand" href="./" aria-label="AUTONOMÍA, inicio">
@@ -30,7 +31,7 @@
       <div class="hero-copy">
         <p class="eyebrow">LEER · APRENDER · COMPARTIR</p>
         <h1>El conocimiento<br>no debería tener<br><em>puertas cerradas.</em></h1>
-        <p class="hero-lead">Una biblioteca cálida y sencilla para encontrar libros, documentos y recursos confiables. Primero nuestra comunidad; después, toda la región y el mundo hispanohablante. Cada material llega con su fuente y una ficha clara.</p>
+        <p class="hero-lead">Una biblioteca cálida y sencilla para encontrar archivos útiles. Empezamos por San Patricio del Chañar y abrimos el acceso a la región y al mundo hispanohablante. Cada archivo publicado se consulta y descarga directamente desde AUTONOMÍA.</p>
         <a class="primary-button" href="#biblioteca">Entrar a la biblioteca <span>↓</span></a>
         <div class="hero-note"><span class="note-icon">✳</span> Acceso simple. Sin cuentas. Con fuentes transparentes.</div>
       </div>
@@ -48,15 +49,16 @@
     <section class="quick-stats" aria-label="Características">
       <div><strong>01</strong><span>Encontrar</span><small>Buscá por título o tema</small></div>
       <div><strong>02</strong><span>Explorar</span><small>Recorré por categorías</small></div>
-      <div><strong>03</strong><span>Acceder</span><small>Consultá en su fuente</small></div>
+      <div><strong>03</strong><span>Descargar</span><small>Desde AUTONOMÍA</small></div>
       <div><strong>04</strong><span>Compartir</span><small>El saber circula</small></div>
     </section>
 
     <section class="library-section" id="biblioteca">
       <div class="section-heading">
-        <div><p class="eyebrow">EL ARCHIVO COMÚN · COLECCIÓN EN CRECIMIENTO</p><h2>La biblioteca</h2><p class="section-intro">Obras ya existentes, seleccionadas con cuidado. Empezamos por San Patricio del Chañar y abrimos la biblioteca a la región y al mundo.</p></div>
-        <div class="collection-count"><strong id="result-count">0</strong><span>RECURSOS<br>ENCONTRADOS</span></div>
+        <div><p class="eyebrow">EL ARCHIVO COMÚN · COLECCIÓN EN CRECIMIENTO</p><h2>La biblioteca</h2><p class="section-intro">Archivos terminados por sus autores, seleccionados con cuidado. Para publicarse, cada archivo debe estar alojado acá y tener permiso de redistribución verificado.</p></div>
+        <div class="collection-count"><strong id="result-count">0</strong><span>ARCHIVOS<br>DISPONIBLES</span></div>
       </div>
+      <div class="review-note" id="review-note" hidden><strong><span id="review-count">0</span> referencias en revisión</strong><span>No se ofrecen como descargas hasta verificar los derechos y guardar el archivo original dentro de AUTONOMÍA.</span></div>
       <div class="search-wrap">
         <span class="search-icon">⌕</span>
         <input id="search-input" type="search" placeholder="¿Qué estás buscando? Un libro, un tema, una palabra..." aria-label="Buscar en la biblioteca">
@@ -75,26 +77,26 @@
       <div class="catalog-grid" id="catalog-grid" aria-live="polite"></div>
       <div class="empty-state" id="empty-state">
         <div class="empty-symbol">✳</div>
-        <h3>La biblioteca está preparando sus estantes.</h3>
-        <p>Buscá por título, autor, tema o territorio. Cada ficha te lleva a la institución o repositorio que conserva la obra.</p>
-        <span>ENCONTRAR · ORDENAR · ACERCAR</span>
+        <h3>Todavía no hay archivos listos para descargar.</h3>
+        <p>Estamos revisando los materiales investigados. Solo aparecerán acá cuando el archivo esté alojado dentro de AUTONOMÍA y tengamos verificados los permisos para compartirlo.</p>
+        <span>ENTRAR · ENCONTRAR · VER · DESCARGAR</span>
       </div>
     </section>
 
     <section class="collection-note" aria-label="Criterio de derechos">
       <span class="collection-note-mark">✳</span>
-      <div><strong>Acceso libre no siempre significa permiso para copiar.</strong><p>Priorizamos obras en dominio público y repositorios institucionales. Cada ficha distingue la obra, la edición consultada y sus condiciones de uso. AUTONOMÍA no aloja copias sin autorización.</p></div>
+      <div><strong>Un archivo publicado debe descargarse desde AUTONOMÍA.</strong><p>No usamos enlaces externos como sustituto de una descarga. Antes de publicar, verificamos la autorización o licencia, conservamos la atribución y alojamos el archivo original en este proyecto.</p></div>
       <a href="https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion" target="_blank" rel="noopener noreferrer">Ley 11.723 ↗</a>
     </section>
 
     <section class="manifesto" id="acerca">
       <div class="manifesto-symbol">A<span>·</span></div>
       <div><p class="eyebrow">UNA IDEA SENCILLA</p><h2>El saber crece<br>cuando se comparte.</h2></div>
-      <p class="manifesto-text">AUTONOMÍA es una vidriera de obras ya terminadas por otras personas e instituciones. No creamos libros, documentos, guías ni archivos para la colección: los buscamos, seleccionamos, verificamos, clasificamos y ponemos al alcance de la comunidad. Cada obra conserva su autoría y su integridad. Preferimos acercarte a la fuente original; solo alojamos copias cuando los derechos lo permiten. Somos un puente hacia el trabajo de sus autores, no sus reemplazos.</p>
+      <p class="manifesto-text">AUTONOMÍA no crea los materiales de su colección. Encuentra, selecciona, verifica y ordena archivos ya terminados por otras personas e instituciones. Cada archivo publicado debe estar alojado dentro de AUTONOMÍA, descargarse directamente desde acá y conservar su autoría, integridad y condiciones de uso. Si no podemos verificar los permisos, no lo publicamos.</p>
     </section>
   </main>
 
-  <footer><a class="footer-brand" href="./">AUTONOMÍA<span>·</span></a><p>Una vidriera de materiales creados por otros. Los encontramos, los ordenamos y te acercamos a ellos.</p><span class="footer-credit">UN PROYECTO EN CONSTRUCCIÓN</span></footer>
+  <footer><a class="footer-brand" href="./">AUTONOMÍA<span>·</span></a><p>Encontrar archivos útiles. Verlos y descargarlos directamente desde AUTONOMÍA.</p><span class="footer-credit">UN PROYECTO EN CONSTRUCCIÓN</span></footer>
   <script src="app.js" defer></script>
 </body>
 </html>
