@@ -16,10 +16,10 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 8. Se conserva el texto o archivo fuente sin alteraciones sustantivas, junto con autoría, procedencia, atribución, licencia y avisos exigidos.
 9. No se inventan archivos ni se producen materiales para completar estantes. Es preferible publicar pocos archivos correctos.
 
-## Estado del catálogo · versión 0.7.4
+## Estado del catálogo · versión 0.7.6
 
-- **53 fichas** registradas.
-- **4 archivos publicados** y alojados localmente en `archivos/libros/`.
+- **55 fichas** registradas.
+- **6 archivos publicados** y alojados localmente en `archivos/libros/`.
 - **49 referencias en revisión**: no se muestran como descargas mientras falte el archivo local o la verificación de derechos.
 - El sitio solo muestra un archivo cuando tiene una ruta local válida dentro de `archivos/`, `publicationStatus: "publicado"` y `rightsVerified: true`.
 - Los enlaces externos se conservan como procedencia editorial en `sourceUrl`; nunca se usan como botones de acceso o descarga.
@@ -30,8 +30,10 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 2. **La vuelta de Martín Fierro** — José Hernández. Project Gutenberg, eBook #15066. TXT con licencia completa conservada.
 3. **Cuentos de amor, de locura y de muerte** — Horacio Quiroga. Project Gutenberg, eBook #13507. TXT con licencia completa conservada.
 4. **El matadero** — Esteban Echeverría. Texto original en dominio público; transcripción atribuida a Wikisource, redistribuida bajo CC BY-SA 4.0.
+5. **Marianela** — Benito Pérez Galdós. Project Gutenberg, eBook #17340. TXT con licencia completa conservada.
+6. **El enemigo** — Jacinto Octavio Picón. Project Gutenberg, eBook #29137, segunda edición de 1887. TXT con licencia completa conservada.
 
-Las obras de Hernández, Quiroga y Echeverría están en dominio público en Argentina por el plazo general aplicable a sus autores. En los tres archivos de Project Gutenberg se conserva íntegra la licencia del proyecto; en `El matadero` se incluye atribución a Wikisource y el enlace a CC BY-SA 4.0. La situación de cada obra y de cada transcripción se registra por separado: que una obra original sea de dominio público no vuelve automáticamente libre cualquier edición, traducción, prólogo, fotografía o ilustración.
+Las seis obras están en dominio público en Argentina según el plazo general aplicable a sus autores. En cinco archivos de Project Gutenberg se conserva íntegra la licencia del proyecto; en `El matadero` se incluye atribución a Wikisource y el enlace a CC BY-SA 4.0. La situación de cada obra y de cada transcripción se registra por separado: que una obra original sea de dominio público no vuelve automáticamente libre cualquier edición, traducción, prólogo, fotografía o ilustración.
 
 ## Cómo publicar un archivo
 
