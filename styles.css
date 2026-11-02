@@ -9,7 +9,7 @@
 .territory-tag{font-size:8px;line-height:1.4;color:var(--green-dark);background:#edf0e8;border-radius:20px;padding:6px 9px;text-align:right}
 .record-source{font-size:9px;line-height:1.55;color:#777e73;margin:0 0 9px}
 .record-source a{color:var(--green-dark);text-decoration:underline;text-decoration-color:#b9c2b4;text-underline-offset:2px}
-.rights-note{font-size:8px;line-height:1.45;color:#8b624b;background:#f5eee7;padding:7px 9px;margin-bottom:14px;border-left:2px solid var(--orange)}
+.rights-note{font-size:8px;line-height:1.45;color:#8b624b;background:#f5eee7;padding:7px 9px;margin-bottom:14px;border-left:2px solid var(--orange)}.rights-note strong{display:block;font-weight:700}.rights-note span{display:block;margin-top:3px;color:#8a7b6e}
 .file-meta{gap:10px;flex-wrap:wrap;line-height:1.5}
 .download-link{white-space:nowrap}
 .filter:focus-visible,.primary-button:focus-visible,nav a:focus-visible{outline-offset:4px}
