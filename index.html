@@ -91,6 +91,20 @@
     </section>
   </main>
 
+  <dialog class="reader-dialog" id="reader-dialog" aria-labelledby="reader-title">
+    <div class="reader-shell">
+      <header class="reader-header">
+        <div><p class="eyebrow">LECTURA DENTRO DE AUTONOMÍA</p><h2 id="reader-title">Leyendo un archivo</h2><p id="reader-credit" class="reader-credit"></p></div>
+        <button class="reader-close" id="reader-close" type="button" aria-label="Cerrar lectura">×</button>
+      </header>
+      <div class="reader-tools" aria-label="Opciones de lectura">
+        <span>Comodidad de lectura</span>
+        <div><button id="reader-smaller" type="button" aria-label="Reducir tamaño de letra">A−</button><button id="reader-larger" type="button" aria-label="Aumentar tamaño de letra">A+</button><button id="reader-reset" type="button">Restablecer</button></div>
+      </div>
+      <div class="reader-body" id="reader-body" tabindex="0"><p class="reader-loading">Preparando el texto…</p></div>
+      <footer class="reader-footer"><span>Se conserva el texto del archivo original.</span><a id="reader-download" href="#" download>Descargar archivo ↓</a></footer>
+    </div>
+  </dialog>
   <footer><a class="footer-brand" href="./">AUTONOMÍA<span>·</span></a><p>Leer · aprender · crear · encontrar. Archivos para todos, sin cuentas ni vueltas.</p><span class="footer-credit">UN PROYECTO EN CONSTRUCCIÓN</span></footer>
   <script src="app.js" defer></script>
 </body>
