@@ -1,0 +1,43 @@
+PLANIFICADOR DE GASTOS DEL HOGAR
+Una herramienta sencilla para mirar los números con claridad.
+No reemplaza asesoramiento financiero.
+
+MES: ______________________
+
+DINERO QUE INGRESA
+Ingreso 1: __________________ $ __________
+Ingreso 2: __________________ $ __________
+Otros: _____________________ $ __________
+TOTAL DE INGRESOS: __________ $ __________
+
+GASTOS NECESARIOS
+Alimentos: __________________ $ __________
+Vivienda: ___________________ $ __________
+Servicios: __________________ $ __________
+Transporte: _________________ $ __________
+Salud: ______________________ $ __________
+Educación: __________________ $ __________
+Otros: _____________________ $ __________
+
+GASTOS VARIABLES
+Salidas / gustos: ____________ $ __________
+Compras ocasionales: ________ $ __________
+Otros: _____________________ $ __________
+
+RESUMEN
+Total de ingresos: __________ $ __________
+Total de gastos: ____________ $ __________
+Diferencia: _________________ $ __________
+
+PAGOS QUE NO QUIERO OLVIDAR
+Fecha __________ Concepto __________ Importe ______
+Fecha __________ Concepto __________ Importe ______
+Fecha __________ Concepto __________ Importe ______
+
+UNA DECISIÓN POSIBLE PARA ESTE MES
+________________________________________________
+
+Los importes son privados. Guardá esta hoja en un lugar seguro.
+
+Creación original: Elías Martínez · AUTONOMÍA / Ocarina Producciones
+Licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0). Se permite compartir y adaptar, incluso con fines comerciales, con atribución adecuada: AUTONOMÍA · Ocarina Producciones (2026). https://creativecommons.org/licenses/by/4.0/deed.es
