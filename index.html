@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f0e8">
-  <meta name="description" content="AUTONOMÍA — biblioteca digital abierta para encontrar, consultar y descargar libros, documentos y archivos.">
+  <meta name="description" content="AUTONOMÍA — biblioteca digital abierta para leer, aprender, crear, imprimir y encontrar recursos útiles.">
   <title>AUTONOMÍA — Biblioteca abierta</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,8 +30,8 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">LEER · APRENDER · COMPARTIR</p>
-        <h1>El conocimiento<br>no debería tener<br><em>puertas cerradas.</em></h1>
-        <p class="hero-lead">Una biblioteca cálida y sencilla para encontrar archivos útiles. Empezamos por San Patricio del Chañar y abrimos el acceso a la región y al mundo hispanohablante. Cada archivo publicado se consulta y descarga directamente desde AUTONOMÍA.</p>
+        <h1>Un mundo de<br>ideas, lecturas y<br><em>cosas para hacer.</em></h1>
+        <p class="hero-lead">Una biblioteca cálida y sencilla para todas las edades. Encontrá lecturas, recursos para aprender, ideas para crear, materiales para imprimir y herramientas para la vida cotidiana. Empezamos en San Patricio del Chañar y abrimos la puerta al mundo.</p>
         <a class="primary-button" href="#biblioteca">Entrar a la biblioteca <span>↓</span></a>
         <div class="hero-note"><span class="note-icon">✳</span> Acceso simple. Sin cuentas. Con fuentes transparentes.</div>
       </div>
@@ -55,25 +55,20 @@
 
     <section class="library-section" id="biblioteca">
       <div class="section-heading">
-        <div><p class="eyebrow">EL ARCHIVO COMÚN · COLECCIÓN EN CRECIMIENTO</p><h2>La biblioteca</h2><p class="section-intro">Archivos terminados por sus autores, seleccionados con cuidado. Para publicarse, cada archivo debe estar alojado acá y tener permiso de redistribución verificado.</p></div>
+        <div><p class="eyebrow">EL ARCHIVO COMÚN · COLECCIÓN EN CRECIMIENTO</p><h2>La biblioteca</h2><p class="section-intro">Una biblioteca para leer, aprender, crear, cultivar, explorar y resolver cosas cotidianas. Cada descarga disponible está alojada acá y tiene sus derechos revisados.</p></div>
         <div class="collection-count"><strong id="result-count">0</strong><span>ARCHIVOS<br>DISPONIBLES</span></div>
       </div>
       <div class="review-note" id="review-note" hidden><strong><span id="review-count">0</span> referencias en revisión</strong><span>No se ofrecen como descargas hasta verificar los derechos y guardar el archivo original dentro de AUTONOMÍA.</span></div>
       <div class="search-wrap">
         <span class="search-icon">⌕</span>
-        <input id="search-input" type="search" placeholder="¿Qué estás buscando? Un libro, un tema, una palabra..." aria-label="Buscar en la biblioteca">
+        <input id="search-input" type="search" placeholder="Buscá por título, tema, autor o actividad..." aria-label="Buscar en la biblioteca">
         <kbd>BUSCAR</kbd>
       </div>
-      <div class="filters" id="category-filters" aria-label="Filtrar por categoría">
-        <button class="filter active" data-category="todos">Todo</button>
-        <button class="filter" data-category="libros">Libros</button>
-        <button class="filter" data-category="documentos">Documentos</button>
-        <button class="filter" data-category="educacion">Educación</button>
-        <button class="filter" data-category="guias">Guías y manuales</button>
-        <button class="filter" data-category="imprimir">Para imprimir</button>
-        <button class="filter" data-category="contactos">Contactos útiles</button>
-        <button class="filter" data-category="otros">Otros archivos</button>
+      <div class="category-heading">
+        <div><p class="eyebrow">EXPLORÁ A TU MANERA</p><h3>¿Qué te gustaría hacer?</h3></div>
+        <button class="show-all active" id="show-all" type="button">Ver todo el catálogo</button>
       </div>
+      <div class="category-grid" id="category-filters" aria-label="Explorar por actividad"></div>
       <div class="catalog-grid" id="catalog-grid" aria-live="polite"></div>
       <div class="empty-state" id="empty-state">
         <div class="empty-symbol">✳</div>
@@ -85,7 +80,7 @@
 
     <section class="collection-note" aria-label="Criterio de derechos">
       <span class="collection-note-mark">✳</span>
-      <div><strong>Un archivo publicado debe descargarse desde AUTONOMÍA.</strong><p>No usamos enlaces externos como sustituto de una descarga. Antes de publicar, verificamos la autorización o licencia, conservamos la atribución y alojamos el archivo original en este proyecto.</p></div>
+      <div><strong>Un archivo publicado debe descargarse desde AUTONOMÍA.</strong><p>Cada archivo disponible se guarda dentro de AUTONOMÍA. Revisamos su procedencia, permiso de redistribución y atribución antes de publicarlo.</p></div>
       <a href="https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion" target="_blank" rel="noopener noreferrer">Ley 11.723 ↗</a>
     </section>
 
@@ -96,7 +91,7 @@
     </section>
   </main>
 
-  <footer><a class="footer-brand" href="./">AUTONOMÍA<span>·</span></a><p>Encontrar archivos útiles. Verlos y descargarlos directamente desde AUTONOMÍA.</p><span class="footer-credit">UN PROYECTO EN CONSTRUCCIÓN</span></footer>
+  <footer><a class="footer-brand" href="./">AUTONOMÍA<span>·</span></a><p>Leer · aprender · crear · encontrar. Archivos para todos, sin cuentas ni vueltas.</p><span class="footer-credit">UN PROYECTO EN CONSTRUCCIÓN</span></footer>
   <script src="app.js" defer></script>
 </body>
 </html>
