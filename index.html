@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f4f0e8">
+  <meta name="theme-color" content="#f5f1e6">
   <meta name="description" content="AUTONOMÍA — biblioteca digital abierta para leer, aprender, crear, imprimir y encontrar recursos útiles.">
-  <title>AUTONOMÍA — Biblioteca abierta</title>
+  <title>AUTONOMÍA — Biblioteca comunitaria</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 </head>
 <body>
   <a class="skip-link" href="#biblioteca">Saltar al contenido</a>
-  <div class="topline"><span class="topline-dot"></span> UNA BIBLIOTECA DIGITAL ABIERTA</div>
+  <div class="topline"><span class="topline-dot"></span> UN LUGAR ABIERTO PARA COMPARTIR LO QUE SABEMOS</div>
   <header class="site-header">
     <a class="brand" href="./" aria-label="AUTONOMÍA, inicio">
       <span class="brand-mark">A<span>·</span></span>
@@ -29,20 +29,17 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">LEER · APRENDER · COMPARTIR</p>
-        <h1>Un mundo de<br>ideas, lecturas y<br><em>cosas para hacer.</em></h1>
-        <p class="hero-lead">Una biblioteca cálida y sencilla para todas las edades. Encontrá lecturas, recursos para aprender, ideas para crear, materiales para imprimir y herramientas para la vida cotidiana. Empezamos en San Patricio del Chañar y abrimos la puerta al mundo.</p>
+        <p class="eyebrow">DE CASA EN CASA · DE MANO EN MANO</p>
+        <h1>Un lugar para<br>aprender, crear y<br><em>compartir.</em></h1>
+        <p class="hero-lead">Una biblioteca comunitaria, sencilla y abierta para todas las edades. Acá podés encontrar lecturas, ideas para crear, materiales para imprimir y recursos para la vida cotidiana. Nace en San Patricio del Chañar, con las puertas abiertas al mundo.</p>
         <a class="primary-button" href="#biblioteca">Entrar a la biblioteca <span>↓</span></a>
-        <div class="hero-note"><span class="note-icon">✳</span> Acceso simple. Sin cuentas. Con fuentes transparentes.</div>
+        <div class="hero-note"><span class="note-icon">✳</span> Entrá, elegí, leé o descargá. Sin cuentas ni vueltas.</div>
       </div>
-      <div class="hero-art" aria-label="Ilustración de libros y documentos" role="img">
-        <div class="sun"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="book book-back"><span></span></div>
-        <div class="book book-middle"><span></span></div>
-        <div class="book book-front"><span></span><i></i></div>
-        <div class="paper paper-one"><b>IDEAS</b><span></span><span></span><span></span></div>
-        <div class="paper paper-two">✳</div>
-        <div class="art-caption">UN MUNDO DE IDEAS<br>AL ALCANCE DE TODOS</div>
+      <div class="hero-art rural-art" role="img" aria-label="Ilustración de un paisaje rural con árboles, chacra y una casa">
+        <div class="rural-sun"></div><div class="distant-hills"></div><div class="field field-back"></div><div class="field field-front"></div>
+        <div class="rural-house"><span class="house-roof"></span><span class="house-body"></span><span class="house-door"></span><span class="house-window"></span></div>
+        <div class="rural-tree tree-one"><i></i></div><div class="rural-tree tree-two"><i></i></div><div class="garden-row"></div><div class="rural-path"></div>
+        <div class="art-caption">UN ESPACIO PARA TODAS LAS PERSONAS</div>
       </div>
     </section>
 
@@ -55,10 +52,10 @@
 
     <section class="library-section" id="biblioteca">
       <div class="section-heading">
-        <div><p class="eyebrow">EL ARCHIVO COMÚN · COLECCIÓN EN CRECIMIENTO</p><h2>La biblioteca</h2><p class="section-intro">Una biblioteca para leer, aprender, crear, cultivar, explorar y resolver cosas cotidianas. Cada descarga disponible está alojada acá y tiene sus derechos revisados.</p></div>
+        <div><p class="eyebrow">EL ARCHIVO COMÚN · COLECCIÓN EN CRECIMIENTO</p><h2>La biblioteca</h2><p class="section-intro">Elegí una actividad, buscá un tema o recorré los estantes. Hoy hay 12 archivos completos para descargar; seguimos revisando nuevas incorporaciones.</p></div>
         <div class="collection-count"><strong id="result-count">0</strong><span>ARCHIVOS<br>DISPONIBLES</span></div>
       </div>
-      <div class="review-note" id="review-note" hidden><strong><span id="review-count">0</span> referencias en revisión</strong><span>No se ofrecen como descargas hasta verificar los derechos y guardar el archivo original dentro de AUTONOMÍA.</span></div>
+      <div class="review-note" id="review-note" hidden><strong><span id="review-count">0</span> materiales en preparación</strong><span>Son referencias investigadas, todavía no son descargas. Primero verificamos derechos y guardamos cada archivo dentro de AUTONOMÍA.</span></div>
       <div class="search-wrap">
         <span class="search-icon">⌕</span>
         <input id="search-input" type="search" placeholder="Buscá por título, tema, autor o actividad..." aria-label="Buscar en la biblioteca">
@@ -72,8 +69,8 @@
       <div class="catalog-grid" id="catalog-grid" aria-live="polite"></div>
       <div class="empty-state" id="empty-state">
         <div class="empty-symbol">✳</div>
-        <h3>Todavía no hay archivos listos para descargar.</h3>
-        <p>Estamos revisando los materiales investigados. Solo aparecerán acá cuando el archivo esté alojado dentro de AUTONOMÍA y tengamos verificados los permisos para compartirlo.</p>
+        <h3>No encontramos archivos con esta búsqueda.</h3>
+        <p>Probá con otra palabra o elegí otra categoría. También podés ver los 12 archivos disponibles.</p>
         <span>ENTRAR · ENCONTRAR · VER · DESCARGAR</span>
       </div>
     </section>
@@ -91,6 +88,12 @@
     </section>
   </main>
 
+  <section class="donation-card" aria-labelledby="donation-title">
+    <div class="donation-flower" aria-hidden="true">✿</div>
+    <div class="donation-copy"><p class="eyebrow">UNA AYUDA VOLUNTARIA</p><h2 id="donation-title">¿AUTONOMÍA te sirvió?</h2><p>Si encontraste algo útil y querés ayudar a que esta biblioteca siga creciendo, podés colaborar con un aporte voluntario. Cada gesto suma. <strong>El acceso siempre es gratuito.</strong></p></div>
+    <div class="donation-alias"><span>ALIAS PARA COLABORAR</span><strong id="donation-alias">ocarina.guitarra</strong><button type="button" id="copy-alias">Copiar alias</button><small id="copy-feedback" aria-live="polite">A nombre de Elías Martínez · Muchas gracias.</small></div>
+  </section>
+
   <dialog class="reader-dialog" id="reader-dialog" aria-labelledby="reader-title">
     <div class="reader-shell">
       <header class="reader-header">
@@ -105,7 +108,7 @@
       <footer class="reader-footer"><span>Se conserva el texto del archivo original.</span><a id="reader-download" href="#" download>Descargar archivo ↓</a></footer>
     </div>
   </dialog>
-  <footer><a class="footer-brand" href="./">AUTONOMÍA<span>·</span></a><p>Leer · aprender · crear · encontrar. Archivos para todos, sin cuentas ni vueltas.</p><span class="footer-credit">UN PROYECTO EN CONSTRUCCIÓN</span></footer>
+  <footer><a class="footer-brand" href="./">AUTONOMÍA<span>·</span></a><p>Leer · aprender · crear · encontrar. Archivos para todos, sin cuentas ni vueltas.</p><span class="footer-credit">UNA BIBLIOTECA HECHA PARA COMPARTIR</span></footer>
   <script src="app.js" defer></script>
 </body>
 </html>
