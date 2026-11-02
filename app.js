@@ -48,7 +48,7 @@ function render() {
       <h3>${safeText(file.title)}</h3>
       <p>${safeText(file.description || "")}</p>
       <div class="record-source">Fuente: <a href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${safeText(file.sourceName || file.author || "Fuente consultada")}</a></div>
-      <div class="rights-note">${safeText(file.rightsLabel || "Permisos por verificar")}</div>
+      <div class="rights-note"><strong>${safeText(file.rightsLabel || "Permisos por verificar")}</strong>${file.rightsNote ? `<span>${safeText(file.rightsNote)}</span>` : ""}</div>
       <div class="file-meta"><span>${safeText(file.format || "Archivo")} · ${safeText(file.author || type)}</span>${action}</div>
     </article>`;
   }).join("");
