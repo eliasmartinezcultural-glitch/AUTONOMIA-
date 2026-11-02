@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Vidriera digital curada: obras terminadas de terceros, con procedencia, derechos y acceso identificados.",
   "files": [
     {
@@ -1273,6 +1273,30 @@
       ],
       "publicationStatus": "publicado",
       "filePath": "archivos/libros/cuentos-de-amor-de-locura-y-de-muerte.txt",
+      "rightsVerified": true
+    },
+    {
+      "id": "el-matadero-echeverria-wikisource",
+      "title": "El matadero",
+      "description": "Relato fundamental de la literatura argentina, escrito por Esteban Echeverría y publicado póstumamente en 1871. Texto completo en formato TXT, con atribución y licencia de la transcripción digital.",
+      "category": "libros",
+      "author": "Esteban Echeverría (1805–1851)",
+      "format": "TXT",
+      "territory": "Argentina",
+      "sourceName": "Wikisource en español · transcripción del texto de 1871",
+      "sourceUrl": "https://es.wikisource.org/wiki/El_matadero",
+      "rightsLabel": "Obra original en dominio público · transcripción CC BY-SA 4.0",
+      "rightsNote": "Esteban Echeverría falleció en 1851 y la obra fue publicada póstumamente en 1871. El texto original está en dominio público en Argentina. La transcripción digital se atribuye a los colaboradores de Wikisource y se redistribuye bajo CC BY-SA 4.0, con enlace a la licencia. No se incorporan prólogos ni materiales editoriales modernos.",
+      "tags": [
+        "literatura argentina",
+        "Esteban Echeverría",
+        "relato",
+        "siglo XIX",
+        "historia",
+        "lectura"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/el-matadero-esteban-echeverria.txt",
       "rightsVerified": true
     }
   ],
