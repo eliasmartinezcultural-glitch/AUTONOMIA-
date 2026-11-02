@@ -213,16 +213,19 @@ La selección final depende de la verificación de derechos, no de completar cuo
 6. Buscar recursos abiertos para trabajo/emprendimientos, oficios, accesibilidad y vida rural.
 7. Publicar cada archivo individualmente solo después de la comprobación final.
 
-### Incorporaciones completadas en AUTONOMÍA 0.7.6
+### Incorporaciones completadas en AUTONOMÍA 0.8.0
 
 - El gaucho Martín Fierro — José Hernández.
 - La vuelta de Martín Fierro — José Hernández.
 - Cuentos de amor, de locura y de muerte — Horacio Quiroga.
 - El matadero — Esteban Echeverría.
 
-Los seis archivos están alojados en `archivos/libros/`, tienen ficha local y pasan el filtro de publicación del motor. Cinco textos de Project Gutenberg conservan su licencia completa; la transcripción de `El matadero` conserva atribución y CC BY-SA 4.0.
+Los nueve archivos están alojados en `archivos/libros/`, tienen ficha local y pasan el filtro de publicación del motor. Cinco textos de Project Gutenberg conservan su licencia completa; la transcripción de `El matadero` conserva atribución y CC BY-SA 4.0.
 - Marianela — Benito Pérez Galdós.
 - El enemigo — Jacinto Octavio Picón.
+- Don Quijote de la Mancha — Miguel de Cervantes.
+- Facundo — Domingo Faustino Sarmiento.
+- Azul… — Rubén Darío.
 
 **Principio rector:** AUTONOMÍA debe ser una puerta confiable hacia materiales que la gente realmente pueda usar. La amplitud se construye con investigación y criterio, no relajando los derechos ni llenando estantes con enlaces externos.
 
@@ -230,3 +233,28 @@ Los seis archivos están alojados en `archivos/libros/`, tienen ficha local y pa
 ## 11. Expansión internacional
 
 La investigación global de museos, bibliotecas, universidades, repositorios educativos, organismos científicos y bases de datos está documentada en [MAPA_GLOBAL_DE_FUENTES_Y_LICENCIAS.md](MAPA_GLOBAL_DE_FUENTES_Y_LICENCIAS.md). Ese documento incluye criterios internacionales de copyright, licencias CC, derechos conexos, restricciones de bases de datos, un semáforo de riesgo y un protocolo de verificación por archivo. Debe consultarse antes de incorporar materiales de fuentes internacionales.
+
+
+## 12. Navegación pública por actividades · AUTONOMÍA 0.8.0
+
+La experiencia pública adopta diez categorías generales y comprensibles:
+
+1. Lecturas.
+2. Aprender y enseñar.
+3. Huerta y vida rural.
+4. Naturaleza y ciencia.
+5. Mapas y territorio.
+6. Crear y diseñar.
+7. Para imprimir y jugar.
+8. Oficios y trabajo.
+9. Vida cotidiana.
+10. Historia y cultura.
+
+Reglas de interfaz:
+- Mostrar solo el número de archivos realmente publicados en cada categoría.
+- Las categorías sin archivos quedan visibles como “Colección en preparación”, sin permitir clics a un catálogo vacío.
+- La búsqueda acepta título, autor, descripción, procedencia y etiquetas.
+- “Ver archivo” abre la copia local; “Descargar” descarga la misma copia local.
+- El contador cuenta solo archivos que superan simultáneamente la validación de publicación, derechos y ruta local.
+- La navegación debe ser cómoda en móvil, con botones grandes, texto legible y categorías explicadas en lenguaje cotidiano.
+- No mostrar fichas en revisión como si fueran productos disponibles.
