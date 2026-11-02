@@ -1,6 +1,6 @@
 # AUTONOMÍA
 
-Biblioteca digital estática, curada y comunitaria. Ordena recursos, explica qué contiene cada uno y facilita el acceso a la fuente confiable.
+Vidriera y biblioteca de acceso: descubre, selecciona, cataloga y acerca materiales terminados creados por terceros. AUTONOMÍA no produce los contenidos de su colección.
 
 ## Principios editoriales
 
@@ -44,7 +44,7 @@ Agregar un objeto dentro del arreglo `files` de `catalogo.json`:
 
 Categorías disponibles: `libros`, `documentos`, `educacion`, `guias`, `otros`.
 
-Si el archivo puede alojarse legalmente en el repositorio, subirlo a `archivos/` y usar una ruta relativa en `url`. Conservar siempre la fuente y la atribución. No subir una obra solo porque se pueda descargar desde otro sitio.
+La opción preferida es enlazar al archivo o ficha de la fuente original. Solo descargar y alojar una copia en `archivos/` cuando se haya verificado que la obra está en dominio público, tiene una licencia que permite redistribuirla o existe autorización expresa. No editar ni alterar el archivo original. Conservar siempre la fuente y la atribución. No subir una obra solo porque se pueda descargar desde otro sitio.
 
 ## Criterios de catalogación
 
