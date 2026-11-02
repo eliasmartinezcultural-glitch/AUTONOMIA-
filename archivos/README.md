@@ -8,6 +8,8 @@ Esta carpeta contiene únicamente archivos que AUTONOMÍA tiene derecho a redist
 - `libros/la-vuelta-de-martin-fierro.txt` — José Hernández · Project Gutenberg #15066 · licencia completa conservada.
 - `libros/cuentos-de-amor-de-locura-y-de-muerte.txt` — Horacio Quiroga · Project Gutenberg #13507 · licencia completa conservada.
 - `libros/el-matadero-esteban-echeverria.txt` — Esteban Echeverría · texto original en dominio público; transcripción de Wikisource atribuida y bajo CC BY-SA 4.0.
+- `libros/marianela-benito-perez-galdos.txt` — Benito Pérez Galdós · Project Gutenberg #17340 · licencia completa conservada.
+- `libros/el-enemigo-jacinto-octavio-picon.txt` — Jacinto Octavio Picón · Project Gutenberg #29137 · licencia completa conservada.
 
 ## Antes de incorporar un archivo
 
