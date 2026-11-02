@@ -132,3 +132,19 @@ Se agregaron ocho fichas nuevas:
 - The Met: solo las obras identificadas con el ícono OA pertenecen al programa CC0; no extender esa condición a todo el sitio.
 
 El filtro “Para imprimir” reúne recursos pensados para llevar al papel, pero cada ficha conserva su propia nota de derechos y su enlace a la fuente.
+
+
+### Segunda tanda · colecciones visuales y estudio · versión 0.5.0
+
+Se sumaron seis fichas:
+
+- Aves del mundo — Library of Congress.
+- Vida rural y trabajo en el campo — Library of Congress.
+- Jardines, flores y huertas — Library of Congress.
+- Carteles históricos — Library of Congress / Poster House.
+- Mapas históricos de ciudades — Library of Congress.
+- OpenStax — biblioteca de libros de estudio descargables en PDF.
+
+OpenStax publica sus libros bajo CC BY-NC-SA 4.0: permite compartir y adaptar con atribución y compartir bajo la misma licencia, pero no permite usos comerciales. AUTONOMÍA debe mantener esta restricción visible y no presentar esos libros como material de libre uso comercial.
+
+Las colecciones temáticas de Library of Congress se presentan como “Free to Use and Reuse”; se mantiene la revisión de cada registro individual y de las normas aplicables fuera de Estados Unidos.
