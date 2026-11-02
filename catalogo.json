@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Biblioteca digital curada por grandes categorías y actividades: lectura, aprendizaje, creación, vida rural, territorio y cultura. Archivos alojados localmente y derechos verificados.",
   "files": [
     {
@@ -1417,6 +1417,78 @@
       ],
       "publicationStatus": "publicado",
       "filePath": "archivos/libros/azul-ruben-dario.txt",
+      "rightsVerified": true
+    },
+    {
+      "id": "pepita-jimenez-juan-valera-pg17223",
+      "title": "Pepita Jiménez",
+      "description": "Novela de Juan Valera publicada en 1874. Transcripción en español basada en la edición histórica de Madrid, con el encabezado y la licencia completa de Project Gutenberg.",
+      "category": "lecturas",
+      "author": "Juan Valera (1824–1905)",
+      "format": "TXT",
+      "territory": "Mundo hispanohablante",
+      "sourceName": "Project Gutenberg · eBook #17223",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/17223",
+      "rightsLabel": "Obra y aportes editoriales en dominio público en Argentina · licencia completa conservada",
+      "rightsNote": "Juan Valera falleció en 1905. Bajo el plazo general de 70 años del art. 5 de la Ley 11.723, la obra original ingresó al dominio público argentino el 01/01/1976. La ficha de Project Gutenberg identifica la edición de 1874; se conserva íntegro el aviso y la licencia del proyecto.",
+      "tags": [
+        "literatura española",
+        "novela",
+        "Juan Valera",
+        "siglo XIX",
+        "clásicos",
+        "lectura"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/pepita-jimenez-juan-valera.txt",
+      "rightsVerified": true
+    },
+    {
+      "id": "los-pazos-de-ulloa-emilia-pardo-bazan-pg18005",
+      "title": "Los pazos de Ulloa",
+      "description": "Novela de Emilia Pardo Bazán publicada en 1886, ambientada en una casa señorial rural de Galicia. Texto en español con el encabezado y la licencia completa de Project Gutenberg.",
+      "category": "lecturas",
+      "author": "Emilia Pardo Bazán (1851–1921)",
+      "format": "TXT",
+      "territory": "Mundo hispanohablante",
+      "sourceName": "Project Gutenberg · eBook #18005",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/18005",
+      "rightsLabel": "Obra y aportes editoriales en dominio público en Argentina · licencia completa conservada",
+      "rightsNote": "Emilia Pardo Bazán falleció en 1921. Bajo el plazo general de 70 años del art. 5 de la Ley 11.723, la obra original ingresó al dominio público argentino el 01/01/1992. Se conserva íntegro el aviso y la licencia de Project Gutenberg.",
+      "tags": [
+        "literatura española",
+        "novela",
+        "Emilia Pardo Bazán",
+        "ruralidad",
+        "siglo XIX",
+        "lectura"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/los-pazos-de-ulloa-emilia-pardo-bazan.txt",
+      "rightsVerified": true
+    },
+    {
+      "id": "el-sombrero-de-tres-picos-pedro-antonio-de-alarcon-pg29506",
+      "title": "El sombrero de tres picos",
+      "description": "Novela breve de Pedro Antonio de Alarcón, publicada originalmente en 1874. La transcripción de Project Gutenberg incluye notas editoriales de Benjamin P. Bourland y conserva su licencia completa.",
+      "category": "lecturas",
+      "author": "Pedro Antonio de Alarcón (1833–1891)",
+      "format": "TXT",
+      "territory": "Mundo hispanohablante",
+      "sourceName": "Project Gutenberg · eBook #29506",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/29506",
+      "rightsLabel": "Obra y aportes editoriales en dominio público en Argentina · licencia completa conservada",
+      "rightsNote": "Pedro Antonio de Alarcón falleció en 1891. El editor Benjamin P. Bourland falleció en 1943. Bajo el plazo general de 70 años del art. 5 de la Ley 11.723, los aportes editoriales originales también ingresaron al dominio público argentino el 01/01/2014. Se conserva íntegro el aviso y la licencia de Project Gutenberg.",
+      "tags": [
+        "literatura española",
+        "novela breve",
+        "Pedro Antonio de Alarcón",
+        "Andalucía",
+        "siglo XIX",
+        "lectura"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/el-sombrero-de-tres-picos-pedro-antonio-de-alarcon.txt",
       "rightsVerified": true
     }
   ],
