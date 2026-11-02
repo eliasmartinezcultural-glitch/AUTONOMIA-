@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Vidriera digital curada: obras terminadas de terceros, con procedencia, derechos y acceso identificados.",
   "files": [
     {
@@ -1202,6 +1202,29 @@
       "publicationStatus": "en_revision",
       "filePath": null,
       "rightsVerified": false
+    },
+    {
+      "id": "martin-fierro-jose-hernandez-pg14765",
+      "title": "El gaucho Martín Fierro",
+      "description": "Poema gauchesco de José Hernández, publicado originalmente en 1872. Esta es una edición de texto plano que conserva el encabezado y la licencia completa de Project Gutenberg.",
+      "category": "libros",
+      "author": "José Hernández (1834–1886)",
+      "format": "TXT",
+      "territory": "Argentina",
+      "sourceName": "Project Gutenberg · eBook #14765 · transcripción de Biblioteca Digital Argentina",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/14765",
+      "rightsLabel": "Dominio público en Argentina · licencia completa conservada",
+      "rightsNote": "José Hernández falleció el 21/10/1886. Según el plazo general de 70 años del art. 5 de la Ley 11.723, la obra original está en dominio público en Argentina desde el 01/01/1957. Se conserva íntegra la licencia de Project Gutenberg dentro del archivo y se distribuye sin cargo.",
+      "tags": [
+        "literatura argentina",
+        "gauchesca",
+        "José Hernández",
+        "tradición",
+        "poesía"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/el-gaucho-martin-fierro.txt",
+      "rightsVerified": true
     }
   ],
   "updated": "2026-11-02"
