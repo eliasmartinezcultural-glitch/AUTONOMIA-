@@ -47,7 +47,8 @@ function renderCategories() {
     const selected = state.category === category.id;
     return '<button class="category-card' + (selected ? ' selected' : '') + (!total ? ' coming-soon' : '') +
       '" type="button" data-category="' + safeText(category.id) + '" aria-pressed="' + selected + '">' +
-      '<span class="door-number">' + String(state.categories.indexOf(category) + 1).padStart(2, "0") + '</span>' +\n      '<span class="category-icon" aria-hidden="true">' + safeText(category.icon || "✳") + '</span>' +
+      '<span class="door-number">' + String(state.categories.indexOf(category) + 1).padStart(2, "0") + '</span>' +
+      '<span class="category-icon" aria-hidden="true">' + safeText(category.icon || "✳") + '</span>' +
       '<span class="category-name">' + safeText(category.name) + '</span>' +
       '<span class="category-description">' + safeText(category.description || "") + '</span>' +
       '<span class="category-count">' + (total ? total + (total === 1 ? ' archivo disponible' : ' archivos disponibles') : 'Colección en preparación') + '</span>' +
