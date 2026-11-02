@@ -1,4 +1,4 @@
-/* AUTONOMÍA 0.8.0 — biblioteca por actividades, categorías generales y archivos locales verificados. */
+/* AUTONOMÍA 0.8.1 — biblioteca por actividades, categorías generales y archivos locales verificados. */
 "use strict";
 const state = { category: "todos", query: "", files: [], categories: [] };
 const grid = document.querySelector("#catalog-grid");
