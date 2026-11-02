@@ -73,3 +73,11 @@
 .file-card:hover{transform:translateY(-2px);box-shadow:0 9px 22px #343c3010}
 @media(max-width:760px){.collection-note{margin:-28px 20px 65px;grid-template-columns:25px 1fr;gap:10px;padding:18px}.collection-note a{grid-column:2}}
 @media(max-width:480px){.collection-note{margin:-25px 15px 55px;padding:16px}.collection-note strong{font-size:12px}.collection-note p{font-size:10px}}
+
+/* AUTONOMÍA 0.7.0 — estado de revisión y acciones de archivo local */
+.review-note{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;margin:-10px 0 18px;padding:13px 16px;background:#eee9df;border-left:3px solid var(--orange);color:#656d61;font-size:11px;line-height:1.6}
+.review-note strong{color:var(--green-dark);font-weight:700}
+.review-note span{font-size:10px}
+.archive-actions{display:flex;gap:12px;flex-wrap:wrap}
+.archive-actions a{font-size:10px}
+@media(max-width:480px){.review-note{font-size:10px;padding:12px}.review-note span{font-size:9px}.archive-actions{gap:8px}}
