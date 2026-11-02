@@ -81,3 +81,30 @@ Puede publicarse con GitHub Pages desde la raíz de la rama principal (`main`). 
 ## Estado
 
 Versión 0.2.0: primera colección de cuatro recursos catalogados. Tres fichas llevan a fuentes oficiales cuya redistribución no se ha verificado; una obra está identificada por el Estado nacional como recurso de dominio público. El catálogo debe seguir creciendo mediante investigación y revisión, no por acumulación.
+
+
+## Ampliación del catálogo · versión 0.3.0
+
+La colección inicial se amplió con obras literarias en dominio público por antigüedad de sus autores y con dos portales institucionales de consulta:
+
+- *Facundo*, de Domingo F. Sarmiento — Project Gutenberg, eBook 33267.
+- *La vuelta de Martín Fierro*, de José Hernández — Project Gutenberg, eBook 15066.
+- *Don Quijote de la Mancha*, de Miguel de Cervantes — Project Gutenberg, eBook 2000.
+- *Azul…*, de Rubén Darío — Project Gutenberg, eBook 52894.
+- Objetos digitales de la Biblioteca Nacional Mariano Moreno — portal institucional de consulta.
+- Biblioteca Digital Hispánica / BNE Digital — colección institucional; verificar la licencia de cada registro.
+
+### Criterio de derechos y acceso
+
+- La ficha de una obra original y los derechos de una edición digital concreta no son necesariamente lo mismo.
+- Project Gutenberg informa que sus registros de dominio público se refieren a Estados Unidos. AUTONOMÍA enlaza a esos registros y no aloja sus copias.
+- Para las obras de autores fallecidos hace más de 70 años, la ficha indica el criterio de dominio público de la obra original en Argentina; deben considerarse por separado traducciones, ilustraciones, prólogos, fotografías y otras contribuciones de cada edición.
+- La Biblioteca Nacional Argentina identifica sus objetos digitales de dominio público y ofrece consulta libre. Las condiciones de reutilización se verifican en cada registro.
+- La BNE indica condiciones CC BY para su conjunto de obras en dominio público; se debe revisar la licencia que acompaña cada objeto.
+- Los portales de colecciones son puertas de entrada a materiales de terceros, no obras creadas por AUTONOMÍA.
+
+Fuentes institucionales de referencia:
+- Ley 11.723, texto actualizado: https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion
+- Biblioteca Nacional, servicios online: https://www.bn.gob.ar/biblioteca/servicios/online
+- Biblioteca Nacional de España, BNE Digital: https://bnedigital.bne.es/
+- Project Gutenberg: https://www.gutenberg.org/
