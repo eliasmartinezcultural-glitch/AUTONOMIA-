@@ -16,7 +16,7 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 8. Se conserva el texto o archivo fuente sin alteraciones sustantivas, junto con autoría, procedencia, atribución, licencia y avisos exigidos.
 9. No se inventan archivos ni se producen materiales para completar estantes. Es preferible publicar pocos archivos correctos.
 
-## Estado del catálogo · versión 0.8.1
+## Estado del catálogo · versión 0.9.0
 
 - **61 fichas** registradas.
 - **12 archivos publicados** y alojados localmente en `archivos/libros/`.
@@ -64,8 +64,8 @@ No usar rutas externas, absolutas ni que salgan de `archivos/`. No completar los
 ## Estructura del proyecto
 
 - `index.html`: portada y biblioteca pública.
-- `styles.css`: diseño adaptable y accesibilidad.
-- `app.js`: búsqueda, filtros y validación de archivos locales.
+- `styles.css`: diseño adaptable, accesibilidad, fichas de archivo y lector integrado.
+- `app.js`: búsqueda, filtros por categorías generales, validación de archivos locales y lector integrado para TXT/MD.
 - `catalogo.json`: metadatos de referencias y archivos publicados.
 - `archivos/`: copias autorizadas para descarga directa.
 
@@ -91,3 +91,25 @@ GitHub Pages puede publicar la raíz de `main` si está habilitado en la configu
 **No creamos. Encontramos. Verificamos. Ordenamos. Acercamos.**
 
 La cantidad no es el objetivo. La confianza y la descarga directa sí.
+
+
+## Experiencia de uso · versión 0.9.0
+
+- Las diez categorías generales se pueden explorar aunque todavía no tengan archivos publicados. Las categorías vacías explican que la colección está en preparación; no se inventan descargas.
+- Los textos TXT y MD se pueden leer dentro de AUTONOMÍA, sin abrir una pestaña de texto plano.
+- El lector permite aumentar o reducir el tamaño de letra, restablecerlo, cerrar con el control visible y descargar el original.
+- La lectura usa el texto local del archivo, sin reescritura ni modificación del contenido.
+- Las fichas distinguen autoría, procedencia, territorio, formato y nota de derechos.
+- El sitio continúa sin cuentas, backend, base de datos ni servicios pagos.
+
+## Fuentes de expansión investigadas
+
+Estas fuentes sirven para localizar futuras obras y recursos, pero no autorizan a copiar una colección completa sin revisar cada elemento:
+
+- **Clipart.Free:** declara una biblioteca de vectores e imágenes CC0. Antes de incorporar un elemento, guardar su ficha individual, autoría disponible, licencia exacta y archivo original.
+- **Wikimedia Commons:** permite reutilizar archivos de dominio público y licencias abiertas compatibles; cada archivo tiene su propia ficha de derechos y atribución.
+- **Project Gutenberg:** sus libros deben revisarse individualmente y contrastarse con la legislación argentina; una declaración de dominio público en Estados Unidos no resuelve por sí sola la situación en Argentina.
+- **NASA:** muchas imágenes y materiales de la agencia son reutilizables bajo sus pautas, pero se deben excluir marcas, logotipos, personas identificables en usos promocionales y material de terceros protegido.
+- **INTA y organismos públicos:** la descarga pública de un manual no equivale automáticamente a permiso de redistribución. Verificar licencia expresa del documento concreto.
+
+La expansión prioriza archivos individuales listos para descarga, no catálogos de enlaces externos. Las fichas pendientes no se cuentan como publicaciones.
