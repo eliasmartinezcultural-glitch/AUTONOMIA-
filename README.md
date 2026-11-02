@@ -13,22 +13,25 @@ AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados 
 5. No se aloja una obra ajena sin dominio público aplicable, licencia que permita redistribución o autorización expresa.
 6. Acceso gratuito, descarga pública y permiso para redistribuir son cosas distintas.
 7. Si los derechos, la edición o el permiso no están verificados, el material permanece en revisión y no aparece como archivo disponible.
-8. No se altera el archivo original. Se conserva autoría, procedencia, atribución, licencia y avisos exigidos.
+8. Se conserva el texto o archivo fuente sin alteraciones sustantivas, junto con autoría, procedencia, atribución, licencia y avisos exigidos.
 9. No se inventan archivos ni se producen materiales para completar estantes. Es preferible publicar pocos archivos correctos.
 
-## Estado unificado · versión 0.7.1
+## Estado del catálogo · versión 0.7.4
 
-Las ramas de trabajo anteriores desarrollaron distintas etapas de AUTONOMÍA. La rama principal ya contenía la colección ampliada de 49 fichas. Esta actualización conserva esas referencias como material de investigación, pero corrige la diferencia entre una ficha que apunta a otro sitio y un archivo realmente disponible dentro de AUTONOMÍA.
+- **53 fichas** registradas.
+- **4 archivos publicados** y alojados localmente en `archivos/libros/`.
+- **49 referencias en revisión**: no se muestran como descargas mientras falte el archivo local o la verificación de derechos.
+- El sitio solo muestra un archivo cuando tiene una ruta local válida dentro de `archivos/`, `publicationStatus: "publicado"` y `rightsVerified: true`.
+- Los enlaces externos se conservan como procedencia editorial en `sourceUrl`; nunca se usan como botones de acceso o descarga.
 
-- 49 referencias anteriores continúan en revisión, sin ruta local y sin derechos de redistribución confirmados.
-- 1 archivo real está alojado dentro de archivos/ y disponible para descarga directa.
-- Primer archivo publicado: El gaucho Martín Fierro, de José Hernández (Project Gutenberg, eBook #14765), en texto plano con la licencia completa conservada.
-- El sitio solo muestra un archivo cuando tiene una ruta local válida dentro de archivos/, publicationStatus: publicado y rightsVerified: true.
-- Los enlaces externos se conservan como procedencia editorial en sourceUrl; no se usan como botones de acceso o descarga.
-- Se reparó un carácter literal que había quedado en el HTML.
-- Se mantiene el diseño adaptable, los filtros, la búsqueda y la estructura estática.
+### Archivos actualmente disponibles
 
-**Importante:** no se han copiado automáticamente las 49 obras. Hacerlo sin verificar la licencia de cada edición o documento podría vulnerar derechos de autor. La obra original puede estar en dominio público y aun así una edición, traducción, prólogo, fotografía o digitalización puede tener derechos propios.
+1. **El gaucho Martín Fierro** — José Hernández. Project Gutenberg, eBook #14765. TXT con licencia completa conservada.
+2. **La vuelta de Martín Fierro** — José Hernández. Project Gutenberg, eBook #15066. TXT con licencia completa conservada.
+3. **Cuentos de amor, de locura y de muerte** — Horacio Quiroga. Project Gutenberg, eBook #13507. TXT con licencia completa conservada.
+4. **El matadero** — Esteban Echeverría. Texto original en dominio público; transcripción atribuida a Wikisource, redistribuida bajo CC BY-SA 4.0.
+
+Las obras de Hernández, Quiroga y Echeverría están en dominio público en Argentina por el plazo general aplicable a sus autores. En los tres archivos de Project Gutenberg se conserva íntegra la licencia del proyecto; en `El matadero` se incluye atribución a Wikisource y el enlace a CC BY-SA 4.0. La situación de cada obra y de cada transcripción se registra por separado: que una obra original sea de dominio público no vuelve automáticamente libre cualquier edición, traducción, prólogo, fotografía o ilustración.
 
 ## Cómo publicar un archivo
 
@@ -37,20 +40,20 @@ Antes de incorporar una obra:
 1. Identificar el archivo exacto y su autor o institución.
 2. Verificar el permiso de redistribución aplicable en Argentina: dominio público, licencia compatible o autorización expresa.
 3. Revisar si existen derechos adicionales de edición, traducción, ilustración, fotografía o terceros.
-4. Descargar el archivo original autorizado y guardarlo dentro de archivos/, en una carpeta por tipo.
-5. No modificar el contenido original.
+4. Obtener el archivo autorizado y guardarlo dentro de `archivos/`, en una carpeta por tipo.
+5. Conservar el archivo fuente y los avisos de licencia. Si se crea una transcripción o conversión, documentar exactamente qué se hizo y con qué permiso.
 6. Completar la ficha con autoría, procedencia, licencia, atribución y fecha de verificación.
-7. Recién entonces establecer publicationStatus: publicado, filePath: archivos/categoria/archivo.pdf y rightsVerified: true.
+7. Recién entonces establecer `publicationStatus: "publicado"`, `filePath: "archivos/categoria/archivo.ext"` y `rightsVerified: true`.
 
-No usar rutas externas, absolutas ni que salgan de archivos/. No completar los tres campos de publicación hasta que el archivo esté efectivamente incorporado y los permisos comprobados.
+No usar rutas externas, absolutas ni que salgan de `archivos/`. No completar los tres campos de publicación hasta que el archivo esté efectivamente incorporado y los permisos comprobados.
 
 ## Estructura del proyecto
 
-- index.html: portada y biblioteca pública.
-- styles.css: diseño adaptable y accesibilidad.
-- app.js: búsqueda, filtros y validación de archivos locales.
-- catalogo.json: metadatos de referencias y archivos publicados.
-- archivos/: copias autorizadas para descarga directa.
+- `index.html`: portada y biblioteca pública.
+- `styles.css`: diseño adaptable y accesibilidad.
+- `app.js`: búsqueda, filtros y validación de archivos locales.
+- `catalogo.json`: metadatos de referencias y archivos publicados.
+- `archivos/`: copias autorizadas para descarga directa.
 
 ## Criterios de derechos
 
@@ -67,7 +70,7 @@ Sitio estático, gratuito, sin cuentas, sin backend ni base de datos. Diseñado 
 
 ## Publicación
 
-GitHub Pages puede publicar la raíz de main si está habilitado en la configuración del repositorio. La incorporación del primer archivo no confirma por sí sola que Pages esté activo ni que el sitio público se haya actualizado.
+GitHub Pages puede publicar la raíz de `main` si está habilitado en la configuración del repositorio. Los commits al repositorio no prueban por sí solos que Pages esté activo ni que el sitio público se haya actualizado.
 
 ## Principio de crecimiento
 
