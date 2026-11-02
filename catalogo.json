@@ -1,6 +1,73 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.1.0",
-  "description": "Catálogo público de libros, documentos y archivos descargables.",
-  "files": []
+  "version": "0.2.0",
+  "description": "Biblioteca digital abierta, curada y organizada para el acceso comunitario al conocimiento.",
+  "files": [
+    {
+      "id": "spch-carta-organica-2006",
+      "title": "Carta Orgánica Municipal de San Patricio del Chañar",
+      "description": "Documento institucional que reúne principios, derechos, deberes y organización municipal. Esta ficha corresponde a la publicación del Boletín Oficial del 29 de septiembre de 2006; consultá si hubo reformas posteriores antes de usarla como texto vigente.",
+      "category": "documentos",
+      "author": "Convención Municipal Constituyente · Municipalidad de San Patricio del Chañar",
+      "format": "PDF",
+      "territory": "San Patricio del Chañar",
+      "sourceName": "Boletín Oficial de la Provincia del Neuquén · Edición 3001",
+      "sourceUrl": "https://infoleg.neuquen.gob.ar/Boletines/bo06092903001a.pdf",
+      "url": "https://infoleg.neuquen.gob.ar/Boletines/bo06092903001a.pdf",
+      "accessLabel": "Consultar documento oficial",
+      "rightsLabel": "Fuente oficial · redistribución no verificada",
+      "rightsNote": "Se enlaza a la publicación oficial. AUTONOMÍA no aloja una copia.",
+      "tags": [
+        "municipio",
+        "historia local",
+        "derechos",
+        "instituciones",
+        "carta orgánica"
+      ]
+    },
+    {
+      "id": "spch-ficha-municipal-1999-2000",
+      "title": "San Patricio del Chañar · Información Municipal Básica 1999–2000",
+      "description": "Ficha histórica provincial con reseña de la localidad y datos municipales de aquella edición. Es un documento de época: sus cifras y referencias no deben tomarse como datos actuales.",
+      "category": "documentos",
+      "author": "Dirección Provincial de Estadística y Censos del Neuquén",
+      "format": "PDF",
+      "territory": "San Patricio del Chañar",
+      "sourceName": "Dirección Provincial de Estadística y Censos del Neuquén",
+      "sourceUrl": "https://www.estadisticaneuquen.gob.ar/static/archivos/Publicaciones/InfMunBasica/Basica99-00/Cartografia/San%20Patricio.PDF",
+      "url": "https://www.estadisticaneuquen.gob.ar/static/archivos/Publicaciones/InfMunBasica/Basica99-00/Cartografia/San%20Patricio.PDF",
+      "accessLabel": "Consultar ficha histórica",
+      "rightsLabel": "Fuente oficial · redistribución no verificada",
+      "rightsNote": "Se enlaza al archivo publicado por el organismo provincial.",
+      "tags": [
+        "historia local",
+        "cartografía",
+        "estadística",
+        "memoria",
+        "municipio"
+      ]
+    },
+    {
+      "id": "argentina-ley-11723",
+      "title": "Ley 11.723 · Régimen Legal de la Propiedad Intelectual",
+      "description": "Texto normativo nacional para conocer cómo se protegen libros, fotografías, mapas, música y otras obras, y por qué no todo lo que aparece gratis en Internet puede copiarse o redistribuirse.",
+      "category": "guias",
+      "author": "República Argentina · Normativa nacional",
+      "format": "HTML",
+      "territory": "Argentina",
+      "sourceName": "Argentina.gob.ar · texto actualizado",
+      "sourceUrl": "https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion",
+      "url": "https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion",
+      "accessLabel": "Leer texto oficial",
+      "rightsLabel": "Normativa oficial · consulta pública",
+      "rightsNote": "Acceso al texto normativo en el sitio oficial. No se reproduce una copia.",
+      "tags": [
+        "derechos de autor",
+        "dominio público",
+        "licencias",
+        "bibliotecas",
+        "normativa"
+      ]
+    }
+  ]
 }
