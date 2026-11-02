@@ -1,0 +1,25 @@
+BINGO DE LA NATURALEZA
+Juego de observación para patio, plaza o paseo. No arranques plantas ni molestes animales.
+
+Cómo jugar:
+1. Buscá cada elemento con la vista.
+2. Marcá la casilla cuando lo encuentres.
+3. Gana quien complete una fila, columna o diagonal.
+4. También podés jugar sin competir: la meta es observar.
+
+┌──────────────────┬──────────────────┬──────────────────┐
+│ Una hoja distinta│ Una nube curiosa │ Una piedra lisa   │
+├──────────────────┼──────────────────┼──────────────────┤
+│ Un sonido de ave │ Una sombra larga │ Una flor          │
+├──────────────────┼──────────────────┼──────────────────┤
+│ Una semilla      │ Un insecto       │ El viento en algo│
+└──────────────────┴──────────────────┴──────────────────┘
+
+OTRAS COSAS QUE DESCUBRÍ
+________________________________________________
+________________________________________________
+
+Jugá con respeto: observá desde cierta distancia, no alimentes fauna silvestre y no dejes residuos.
+
+Creación original: Elías Martínez · AUTONOMÍA / Ocarina Producciones
+Licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0). Se permite compartir y adaptar, incluso con fines comerciales, con atribución adecuada: AUTONOMÍA · Ocarina Producciones (2026). https://creativecommons.org/licenses/by/4.0/deed.es
