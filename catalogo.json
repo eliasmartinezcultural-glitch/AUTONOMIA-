@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "Vidriera digital curada: obras terminadas de terceros, con procedencia, derechos y acceso identificados.",
   "files": [
     {
@@ -1297,6 +1297,30 @@
       ],
       "publicationStatus": "publicado",
       "filePath": "archivos/libros/el-matadero-esteban-echeverria.txt",
+      "rightsVerified": true
+    },
+    {
+      "id": "marianela-benito-perez-galdos-pg17340",
+      "title": "Marianela",
+      "description": "Novela de Benito Pérez Galdós publicada en 1878. Narra el vínculo entre Marianela, una joven huérfana, y Pablo, un muchacho ciego. Texto en español con el encabezado y la licencia completa de Project Gutenberg.",
+      "category": "libros",
+      "author": "Benito Pérez Galdós (1843–1920)",
+      "format": "TXT",
+      "territory": "España · Mundo hispanohablante",
+      "sourceName": "Project Gutenberg · eBook #17340 · edición original de 1878",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/17340",
+      "rightsLabel": "Obra original en dominio público en Argentina · licencia completa conservada",
+      "rightsNote": "Benito Pérez Galdós falleció en 1920. Bajo el plazo general de 70 años del art. 5 de la Ley 11.723, la obra original ingresó al dominio público argentino el 01/01/1991. La ficha de Project Gutenberg identifica la edición de 1878 y no declara traductor ni editor adicional. El archivo conserva íntegro el aviso y la licencia de Project Gutenberg.",
+      "tags": [
+        "literatura española",
+        "novela",
+        "Benito Pérez Galdós",
+        "siglo XIX",
+        "lectura",
+        "clásicos"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/marianela-benito-perez-galdos.txt",
       "rightsVerified": true
     }
   ],
