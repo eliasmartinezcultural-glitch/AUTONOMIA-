@@ -13,4 +13,4 @@ Esta carpeta contiene únicamente archivos que AUTONOMÍA tiene derecho a redist
 
 El sitio no usa enlaces externos como sustituto de la descarga: los botones públicos solo apuntan a rutas locales dentro de esta carpeta.
 
-Actualmente no se incorporan copias de las referencias investigadas hasta terminar la verificación individual de derechos.
+Primer archivo incorporado: archivos/libros/el-gaucho-martin-fierro.txt. Es una transcripción de Project Gutenberg eBook #14765; conserva la licencia completa y se distribuye sin cargo. Las demás referencias siguen en revisión.
