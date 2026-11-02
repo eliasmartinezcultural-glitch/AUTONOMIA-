@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Vidriera digital curada: obras terminadas de terceros, con procedencia, derechos y acceso identificados.",
   "files": [
     {
@@ -1224,6 +1224,31 @@
       ],
       "publicationStatus": "publicado",
       "filePath": "archivos/libros/el-gaucho-martin-fierro.txt",
+      "rightsVerified": true
+    },
+    {
+      "id": "la-vuelta-martin-fierro-pg15066",
+      "title": "La vuelta de Martín Fierro",
+      "description": "Segunda parte del poema gauchesco de José Hernández, publicada en 1879. Texto en español conservado con el encabezado y la licencia completa de Project Gutenberg.",
+      "category": "libros",
+      "author": "José Hernández (1834–1886)",
+      "format": "TXT",
+      "territory": "Argentina",
+      "sourceName": "Project Gutenberg · eBook #15066 · transcripción de la edición original de 1879",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/15066",
+      "rightsLabel": "Obra original en dominio público en Argentina · licencia completa conservada",
+      "rightsNote": "José Hernández falleció el 21/10/1886. Bajo el plazo general de 70 años del art. 5 de la Ley 11.723, la obra original está en dominio público en Argentina desde el 01/01/1957. El archivo conserva íntegro el aviso y la licencia de Project Gutenberg. Se publica el texto, sin reproducir las ilustraciones de la edición original.",
+      "tags": [
+        "literatura argentina",
+        "gauchesca",
+        "José Hernández",
+        "tradición",
+        "poesía",
+        "campo",
+        "Martín Fierro"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/la-vuelta-de-martin-fierro.txt",
       "rightsVerified": true
     }
   ],
