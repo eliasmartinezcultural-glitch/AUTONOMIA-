@@ -1,7 +1,7 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.2.0",
-  "description": "Biblioteca digital abierta, curada y organizada para el acceso comunitario al conocimiento.",
+  "version": "0.3.0",
+  "description": "Vidriera digital curada: obras terminadas de terceros, con procedencia, derechos y acceso identificados.",
   "files": [
     {
       "id": "spch-carta-organica-2006",
@@ -90,6 +90,158 @@
         "lectura",
         "patrimonio"
       ]
+    },
+    {
+      "id": "argentina-facundo-sarmiento",
+      "title": "Facundo · Civilización y barbarie",
+      "description": "Ensayo histórico y político publicado en 1845. Sarmiento analiza los conflictos argentinos del siglo XIX a través de la figura de Facundo Quiroga y los debates sobre la organización nacional.",
+      "category": "libros",
+      "author": "Domingo Faustino Sarmiento (1811–1888)",
+      "format": "HTML · EPUB · TXT",
+      "territory": "Argentina",
+      "sourceName": "Project Gutenberg · eBook 33267",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/33267",
+      "url": "https://www.gutenberg.org/ebooks/33267",
+      "accessLabel": "Leer y descargar en la fuente",
+      "rightsLabel": "Obra original en dominio público en Argentina",
+      "rightsNote": "Autor fallecido en 1888. AUTONOMÍA enlaza a Project Gutenberg y no aloja esta edición. La fuente declara dominio público en Estados Unidos.",
+      "tags": [
+        "historia argentina",
+        "ensayo",
+        "siglo XIX",
+        "política",
+        "Domingo Faustino Sarmiento",
+        "Facundo Quiroga"
+      ],
+      "jurisdiction": "Argentina · obra original",
+      "hosting": "Enlace externo; copia no alojada"
+    },
+    {
+      "id": "argentina-vuelta-martin-fierro",
+      "title": "La vuelta de Martín Fierro",
+      "description": "Segunda parte del poema gauchesco de José Hernández, publicada en 1879. Continúa la historia de Martín Fierro y amplía el retrato de la vida, los conflictos y los valores del mundo rural.",
+      "category": "libros",
+      "author": "José Hernández (1834–1886)",
+      "format": "HTML · EPUB · TXT",
+      "territory": "Argentina",
+      "sourceName": "Project Gutenberg · eBook 15066",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/15066",
+      "url": "https://www.gutenberg.org/ebooks/15066",
+      "accessLabel": "Leer y descargar en la fuente",
+      "rightsLabel": "Obra original en dominio público en Argentina",
+      "rightsNote": "Autor fallecido en 1886. La fuente declara dominio público en Estados Unidos. Se enlaza a la edición de origen; no se aloja una copia.",
+      "tags": [
+        "literatura argentina",
+        "gauchesca",
+        "José Hernández",
+        "poesía",
+        "campo",
+        "Martín Fierro"
+      ],
+      "jurisdiction": "Argentina · obra original",
+      "hosting": "Enlace externo; copia no alojada"
+    },
+    {
+      "id": "mundo-don-quijote",
+      "title": "Don Quijote de la Mancha",
+      "description": "Novela de Miguel de Cervantes publicada en dos partes, en 1605 y 1615. Una obra fundamental de la literatura en español, disponible para lectura en línea y descarga en distintos formatos.",
+      "category": "libros",
+      "author": "Miguel de Cervantes Saavedra (1547–1616)",
+      "format": "HTML · EPUB · TXT",
+      "territory": "Mundo hispanohablante",
+      "sourceName": "Project Gutenberg · eBook 2000",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2000",
+      "url": "https://www.gutenberg.org/ebooks/2000",
+      "accessLabel": "Leer y descargar en la fuente",
+      "rightsLabel": "Obra original en dominio público",
+      "rightsNote": "El autor falleció en 1616. La fuente declara dominio público en Estados Unidos. AUTONOMÍA conserva el enlace externo y no aloja el archivo.",
+      "tags": [
+        "literatura universal",
+        "novela",
+        "clásicos",
+        "Cervantes",
+        "España",
+        "lectura"
+      ],
+      "jurisdiction": "Argentina · obra original",
+      "hosting": "Enlace externo; copia no alojada"
+    },
+    {
+      "id": "mundo-azul-ruben-dario",
+      "title": "Azul…",
+      "description": "Libro de cuentos y poemas de Rubén Darío, publicado originalmente en 1888. Una obra clave del modernismo hispanoamericano, con prosa y poesía que renovaron la literatura en español.",
+      "category": "libros",
+      "author": "Rubén Darío (1867–1916)",
+      "format": "HTML · EPUB · TXT",
+      "territory": "Hispanoamérica",
+      "sourceName": "Project Gutenberg · eBook 52894",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/52894",
+      "url": "https://www.gutenberg.org/ebooks/52894",
+      "accessLabel": "Leer y descargar en la fuente",
+      "rightsLabel": "Obra original en dominio público en Argentina",
+      "rightsNote": "Autor fallecido en 1916. La fuente declara dominio público en Estados Unidos. La ficha enlaza a la edición digital de origen; no se aloja una copia.",
+      "tags": [
+        "poesía",
+        "cuentos",
+        "modernismo",
+        "Rubén Darío",
+        "Hispanoamérica",
+        "literatura"
+      ],
+      "jurisdiction": "Argentina · obra original",
+      "hosting": "Enlace externo; copia no alojada"
+    },
+    {
+      "id": "argentina-biblioteca-nacional-digital",
+      "title": "Objetos digitales de la Biblioteca Nacional Mariano Moreno",
+      "description": "Colecciones digitales argentinas: libros, revistas, diarios, fotografías, mapas, manuscritos, partituras, audios y videos. La Biblioteca Nacional informa que ofrece obras digitalizadas en dominio público para consulta libre.",
+      "category": "otros",
+      "author": "Biblioteca Nacional Mariano Moreno",
+      "format": "Colección digital",
+      "territory": "Argentina",
+      "sourceName": "Biblioteca Nacional · Servicios online",
+      "sourceUrl": "https://www.bn.gob.ar/biblioteca/servicios/online",
+      "url": "https://www.bn.gob.ar/biblioteca/servicios/online",
+      "accessLabel": "Explorar la colección oficial",
+      "rightsLabel": "Colección institucional · consultar ficha de cada obra",
+      "rightsNote": "La institución identifica sus objetos digitales de dominio público. Verificá las condiciones particulares de cada registro antes de reutilizar o redistribuir.",
+      "tags": [
+        "biblioteca nacional",
+        "fotografías",
+        "mapas",
+        "manuscritos",
+        "partituras",
+        "historia argentina",
+        "hemeroteca"
+      ],
+      "jurisdiction": "Argentina · según ficha individual",
+      "hosting": "Portal externo; no se alojan materiales"
+    },
+    {
+      "id": "mundo-bne-digital-publico",
+      "title": "Biblioteca Digital Hispánica · obras en dominio público",
+      "description": "Colección digital de la Biblioteca Nacional de España con libros, manuscritos, material gráfico, mapas, partituras y otros documentos históricos. El conjunto de obras identificadas como dominio público puede reutilizarse según las licencias indicadas por la institución.",
+      "category": "otros",
+      "author": "Biblioteca Nacional de España",
+      "format": "Colección digital",
+      "territory": "Mundo hispanohablante",
+      "sourceName": "Biblioteca Nacional de España · BNE Digital",
+      "sourceUrl": "https://bnedigital.bne.es/",
+      "url": "https://bnedigital.bne.es/",
+      "accessLabel": "Explorar BNE Digital",
+      "rightsLabel": "Dominio público / CC BY según registro",
+      "rightsNote": "No toda la colección comparte las mismas condiciones. Comprobá la licencia visible en cada obra; el conjunto de dominio público se ofrece bajo las condiciones CC BY indicadas por la BNE.",
+      "tags": [
+        "biblioteca digital",
+        "España",
+        "mapas",
+        "fotografía histórica",
+        "manuscritos",
+        "partituras",
+        "libros antiguos"
+      ],
+      "jurisdiction": "Según ficha y licencia individual",
+      "hosting": "Portal externo; no se alojan materiales"
     }
   ]
 }
