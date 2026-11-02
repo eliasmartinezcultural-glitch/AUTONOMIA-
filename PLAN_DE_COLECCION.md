@@ -205,13 +205,22 @@ La selección final depende de la verificación de derechos, no de completar cuo
 
 ## 10. Próximo ciclo de trabajo
 
-1. Descargar y revisar el Manual de cultivos para la Huerta Orgánica Familiar.
-2. Revisar el PDF de La huerta orgánica y registrar la licencia CC BY-SA.
-3. Incorporar un primer recurso de ilustración USGS con nota de dominio público confirmada.
-4. Seleccionar una actividad NASA en español y revisar sus avisos.
+1. Conseguir e incorporar el PDF oficial de La huerta orgánica (INTA, 2008). La licencia CC BY-SA 2.5 Argentina está declarada dentro del propio PDF; falta resolver la transferencia binaria e inspeccionar el archivo descargado.
+2. Verificar de forma independiente el Manual de cultivos para la Huerta Orgánica Familiar: confirmar licencia del PDF exacto y posibles derechos de fotografía/edición antes de alojarlo.
+3. Incorporar un primer recurso de ilustración USGS solo después de confirmar que el archivo individual está identificado como dominio público.
+4. Seleccionar una actividad NASA en español y revisar sus avisos, imágenes y créditos de terceros.
 5. Descargar la capa GeoJSON de regiones de Neuquén y revisar metadatos; decidir si conviene alojarla como dato geográfico o convertirla en un archivo cartográfico de consulta, sin confundir datos con un mapa terminado.
-6. Buscar un primer recurso abierto para trabajo/emprendimientos y otro para accesibilidad.
+6. Buscar recursos abiertos para trabajo/emprendimientos, oficios, accesibilidad y vida rural.
 7. Publicar cada archivo individualmente solo después de la comprobación final.
+
+### Incorporaciones completadas en AUTONOMÍA 0.7.4
+
+- El gaucho Martín Fierro — José Hernández.
+- La vuelta de Martín Fierro — José Hernández.
+- Cuentos de amor, de locura y de muerte — Horacio Quiroga.
+- El matadero — Esteban Echeverría.
+
+Los cuatro archivos están alojados en `archivos/libros/`, tienen ficha local y pasan el filtro de publicación del motor. Los tres textos de Project Gutenberg conservan su licencia completa; la transcripción de `El matadero` conserva atribución y CC BY-SA 4.0.
 
 **Principio rector:** AUTONOMÍA debe ser una puerta confiable hacia materiales que la gente realmente pueda usar. La amplitud se construye con investigación y criterio, no relajando los derechos ni llenando estantes con enlaces externos.
 
