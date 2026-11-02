@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Biblioteca digital curada por grandes categorías y actividades: lectura, aprendizaje, creación, vida rural, territorio y cultura. Archivos alojados localmente y derechos verificados. Incluye lectura integrada para textos.",
   "files": [
     {
@@ -125,7 +125,7 @@
       "id": "argentina-vuelta-martin-fierro",
       "title": "La vuelta de Martín Fierro",
       "description": "Segunda parte del poema gauchesco de José Hernández, publicada en 1879. Continúa la historia de Martín Fierro y amplía el retrato de la vida, los conflictos y los valores del mundo rural.",
-      "category": "cultura",
+      "category": "lecturas",
       "author": "José Hernández (1834–1886)",
       "format": "HTML · EPUB · TXT",
       "territory": "Argentina",
