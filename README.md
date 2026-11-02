@@ -1,150 +1,76 @@
 # AUTONOMÍA
 
-Vidriera y biblioteca de acceso: descubre, selecciona, cataloga y acerca materiales terminados creados por terceros. AUTONOMÍA no produce los contenidos de su colección.
+**Biblioteca digital de archivos útiles, con prioridad en San Patricio del Chañar, Neuquén y Patagonia.**
 
-## LEY FUNDAMENTAL: AUTONOMÍA ES UNA VIDRIERA
+AUTONOMÍA encuentra, selecciona, verifica, ordena y acerca archivos terminados por terceros. No crea materiales para llenar el catálogo.
 
-**AUTONOMÍA NO CREA CONTENIDOS. PONE AL ALCANCE OBRAS YA TERMINADAS POR OTROS AUTORES E INSTITUCIONES.**
+## Leyes editoriales del proyecto
 
-Esta regla está por encima de cualquier decisión de diseño, programación, crecimiento o catálogo.
+1. Todo material en papel o digitalizado se cataloga como **archivo**.
+2. Todo archivo publicado debe estar alojado dentro de este repositorio y descargarse directamente desde AUTONOMÍA.
+3. La experiencia pública debe ser: **entrar → encontrar → ver → descargar**.
+4. No se publican enlaces externos como sustituto de una descarga interna.
+5. No se aloja una obra ajena sin dominio público aplicable, licencia que permita redistribución o autorización expresa.
+6. Acceso gratuito, descarga pública y permiso para redistribuir son cosas distintas.
+7. Si los derechos, la edición o el permiso no están verificados, el material permanece en revisión y no aparece como archivo disponible.
+8. No se altera el archivo original. Se conserva autoría, procedencia, atribución, licencia y avisos exigidos.
+9. No se inventan archivos ni se producen materiales para completar estantes. Es preferible publicar pocos archivos correctos.
 
-- No escribimos, encargamos, producimos, ilustramos, traducimos, adaptamos, completamos ni reescribimos los materiales de la colección.
-- No modificamos los archivos originales ni presentamos obras ajenas como propias.
-- No fabricamos publicaciones para llenar estantes. Si hay pocos materiales buenos, mostramos pocos.
-- Sí investigamos, descubrimos, seleccionamos, verificamos, clasificamos y catalogamos obras terminadas de terceros.
-- Sí redactamos fichas descriptivas propias y neutrales: título, autoría, procedencia, tema, fecha, formato, territorio, licencia y forma de acceso. La ficha orienta; no reemplaza ni recrea la obra.
-- Preferimos enlazar al repositorio legítimo de origen. Solo alojamos una copia cuando la situación jurídica permite expresamente esa redistribución.
-- Respetamos autoría, integridad, atribución, licencias y condiciones de uso.
+## Estado unificado · versión 0.7.0
 
-**Nuestra tarea es ser una vidriera y un puente: encontrar lo que ya existe, darle orden, contexto y visibilidad, y acercar a las personas a la obra de su autor.**
+Las ramas de trabajo anteriores desarrollaron distintas etapas de AUTONOMÍA. La rama principal ya contenía la colección ampliada de 49 fichas. Esta actualización conserva esas referencias como material de investigación, pero corrige la diferencia entre una ficha que apunta a otro sitio y un archivo realmente disponible dentro de AUTONOMÍA.
 
-## Principios editoriales
+- 49 referencias de materiales y servicios investigados, conservadas en catalogo.json.
+- 0 archivos habilitados para descarga local en esta actualización.
+- Las 49 referencias quedan marcadas en_revision, sin ruta local y sin derechos de redistribución confirmados.
+- El sitio solo muestra un archivo cuando tiene una ruta local válida dentro de archivos/, publicationStatus: publicado y rightsVerified: true.
+- Los enlaces externos se conservan como procedencia editorial en sourceUrl; no se usan como botones de acceso o descarga.
+- Se reparó un carácter literal que había quedado en el HTML.
+- Se mantiene el diseño adaptable, los filtros, la búsqueda y la estructura estática.
 
-1. Empezar por San Patricio del Chañar, luego Neuquén y Patagonia, Argentina y el mundo hispanohablante.
-2. Priorizar utilidad, valor cultural, educativo, histórico y comunitario por encima de la cantidad.
-3. Cada ficha debe identificar autoría, institución o procedencia, territorio, formato, fuente y situación de derechos.
-4. No confundir acceso gratuito con permiso para copiar o redistribuir.
-5. Cuando el permiso de redistribución no esté comprobado, enlazar a la fuente original y no alojar una copia.
-6. No publicar datos personales, material privado ni documentos que expongan a vecinos.
+**Importante:** no se han copiado automáticamente las 49 obras. Hacerlo sin verificar la licencia de cada edición o documento podría vulnerar derechos de autor. La obra original puede estar en dominio público y aun así una edición, traducción, prólogo, fotografía o digitalización puede tener derechos propios.
 
-## Estructura
+## Cómo publicar un archivo
 
-- `index.html`: página principal.
-- `styles.css`: diseño adaptable y reglas de accesibilidad.
-- `app.js`: búsqueda, filtros y renderizado del catálogo.
-- `catalogo.json`: fichas descriptivas de los materiales.
-- `archivos/`: espacio para archivos que AUTONOMÍA tenga derecho a alojar.
+Antes de incorporar una obra:
 
-## Cómo agregar una ficha de una obra existente
+1. Identificar el archivo exacto y su autor o institución.
+2. Verificar el permiso de redistribución aplicable en Argentina: dominio público, licencia compatible o autorización expresa.
+3. Revisar si existen derechos adicionales de edición, traducción, ilustración, fotografía o terceros.
+4. Descargar el archivo original autorizado y guardarlo dentro de archivos/, en una carpeta por tipo.
+5. No modificar el contenido original.
+6. Completar la ficha con autoría, procedencia, licencia, atribución y fecha de verificación.
+7. Recién entonces establecer publicationStatus: publicado, filePath: archivos/categoria/archivo.pdf y rightsVerified: true.
 
-Solo se incorpora una ficha de una obra ya terminada, creada por un tercero y localizada en una fuente legítima. Nunca se crea una obra para agregarla al catálogo. Agregar el registro descriptivo dentro del arreglo `files` de `catalogo.json`:
+No usar rutas externas, absolutas ni que salgan de archivos/. No completar los tres campos de publicación hasta que el archivo esté efectivamente incorporado y los permisos comprobados.
 
-```json
-{
-  "id": "identificador-unico",
-  "title": "Título del material",
-  "description": "Descripción breve, clara y honesta.",
-  "category": "libros",
-  "author": "Autor o institución",
-  "format": "PDF",
-  "territory": "San Patricio del Chañar",
-  "sourceName": "Nombre del repositorio o institución",
-  "sourceUrl": "https://sitio-oficial.example/documento",
-  "url": "https://sitio-oficial.example/documento",
-  "accessLabel": "Consultar fuente oficial",
-  "rightsLabel": "Estado de derechos comprobado",
-  "rightsNote": "Nota breve sobre el permiso o la decisión de enlazar.",
-  "tags": ["historia", "educación"]
-}
-```
+## Estructura del proyecto
 
-Categorías disponibles: `libros`, `documentos`, `educacion`, `guias`, `otros`.
+- index.html: portada y biblioteca pública.
+- styles.css: diseño adaptable y accesibilidad.
+- app.js: búsqueda, filtros y validación de archivos locales.
+- catalogo.json: metadatos de referencias y archivos publicados.
+- archivos/: copias autorizadas para descarga directa.
 
-La opción preferida es enlazar al archivo o ficha de la fuente original. Solo descargar y alojar una copia en `archivos/` cuando se haya verificado que la obra está en dominio público, tiene una licencia que permite redistribuirla o existe autorización expresa. No editar ni alterar el archivo original. Conservar siempre la fuente y la atribución. No subir una obra solo porque se pueda descargar desde otro sitio.
+## Criterios de derechos
 
-## Criterios de catalogación
+- **Dominio público:** verificar el plazo y la jurisdicción aplicables, además de los derechos de la edición digital concreta.
+- **Creative Commons:** registrar la licencia exacta y cumplir atribución, restricciones comerciales, compartir igual y límites sobre obras derivadas.
+- **CC0 / Open Access:** comprobar que el objeto individual tenga esa identificación y que no haya derechos de terceros.
+- **Repositorios institucionales:** la presencia de un PDF o botón de descarga no demuestra por sí sola permiso para republicar.
+- **Uso personal o educativo:** no equivale automáticamente a permiso para alojar y redistribuir en una biblioteca pública.
+- **Contactos y directorios:** verificar vigencia antes de publicar; no presentar números sin confirmar como líneas de emergencia.
 
-- **Dominio público:** comprobar autoría, fecha de fallecimiento/publicación y plazo aplicable en cada jurisdicción; guardar la fuente que fundamenta la decisión.
-- **Licencia abierta:** registrar la licencia exacta y respetar sus condiciones, incluida atribución y restricciones.
-- **Acceso público, derechos no verificados:** enlazar a la fuente original; no redistribuir.
-- **Documento institucional:** identificar organismo, fecha y versión; advertir si puede haber actualizaciones.
-- **Documento histórico:** señalar claramente su fecha y no presentarlo como información vigente.
+## Accesibilidad y tecnología
 
-## Experiencia y accesibilidad
-
-Diseño adaptable a celulares pequeños, tabletas y computadoras; controles claros, texto legible, navegación por teclado y sin necesidad de cuentas. La página debe seguir siendo liviana y funcionar como sitio estático, sin backend ni base de datos.
+Sitio estático, gratuito, sin cuentas, sin backend ni base de datos. Diseñado para celulares, tabletas y computadoras, con texto legible, navegación simple y controles claros.
 
 ## Publicación
 
-Puede publicarse con GitHub Pages desde la raíz de la rama principal (`main`). Esta rama de trabajo todavía no implica que GitHub Pages esté habilitado.
+GitHub Pages puede publicar la raíz de main si está habilitado en la configuración del repositorio. Esta actualización no confirma por sí sola que Pages esté activo ni que el sitio público se haya actualizado.
 
-## Estado
+## Principio de crecimiento
 
-Versión 0.2.0: primera colección de cuatro recursos catalogados. Tres fichas llevan a fuentes oficiales cuya redistribución no se ha verificado; una obra está identificada por el Estado nacional como recurso de dominio público. El catálogo debe seguir creciendo mediante investigación y revisión, no por acumulación.
+**No creamos. Encontramos. Verificamos. Ordenamos. Acercamos.**
 
-
-## Ampliación del catálogo · versión 0.3.0
-
-La colección inicial se amplió con obras literarias en dominio público por antigüedad de sus autores y con dos portales institucionales de consulta:
-
-- *Facundo*, de Domingo F. Sarmiento — Project Gutenberg, eBook 33267.
-- *La vuelta de Martín Fierro*, de José Hernández — Project Gutenberg, eBook 15066.
-- *Don Quijote de la Mancha*, de Miguel de Cervantes — Project Gutenberg, eBook 2000.
-- *Azul…*, de Rubén Darío — Project Gutenberg, eBook 52894.
-- Objetos digitales de la Biblioteca Nacional Mariano Moreno — portal institucional de consulta.
-- Biblioteca Digital Hispánica / BNE Digital — colección institucional; verificar la licencia de cada registro.
-
-### Criterio de derechos y acceso
-
-- La ficha de una obra original y los derechos de una edición digital concreta no son necesariamente lo mismo.
-- Project Gutenberg informa que sus registros de dominio público se refieren a Estados Unidos. AUTONOMÍA enlaza a esos registros y no aloja sus copias.
-- Para las obras de autores fallecidos hace más de 70 años, la ficha indica el criterio de dominio público de la obra original en Argentina; deben considerarse por separado traducciones, ilustraciones, prólogos, fotografías y otras contribuciones de cada edición.
-- La Biblioteca Nacional Argentina identifica sus objetos digitales de dominio público y ofrece consulta libre. Las condiciones de reutilización se verifican en cada registro.
-- La BNE indica condiciones CC BY para su conjunto de obras en dominio público; se debe revisar la licencia que acompaña cada objeto.
-- Los portales de colecciones son puertas de entrada a materiales de terceros, no obras creadas por AUTONOMÍA.
-
-Fuentes institucionales de referencia:
-- Ley 11.723, texto actualizado: https://www.argentina.gob.ar/normativa/nacional/42755/actualizacion
-- Biblioteca Nacional, servicios online: https://www.bn.gob.ar/biblioteca/servicios/online
-- Biblioteca Nacional de España, BNE Digital: https://bnedigital.bne.es/
-- Project Gutenberg: https://www.gutenberg.org/
-
-
-## Colección de materiales para imprimir · versión 0.4.0
-
-Se agregaron ocho fichas nuevas:
-
-- Mapas escolares de la provincia del Neuquén — IGN.
-- Mapas de Argentina y planisferios — IGN.
-- Mapoteca Educ.ar — mapas para dibujar, pintar, descargar e imprimir.
-- Educ.ar — libros, cuadernillos y actividades.
-- Juegos históricos para imprimir y recortar — Library of Congress.
-- Libros infantiles clásicos ilustrados — Library of Congress.
-- Smithsonian Open Access — imágenes identificadas con CC0.
-- The Met Open Access — imágenes identificadas con OA / CC0.
-
-### Regla de reutilización
-
-- IGN declara sus mapas escolares bajo CC BY-SA 4.0: atribuir la fuente y mantener la misma licencia al compartir adaptaciones.
-- Educ.ar y Mapoteca se incorporan como portales de acceso; la licencia debe revisarse en cada recurso.
-- Library of Congress presenta colecciones seleccionadas como “Free to Use and Reuse”; verificar la nota de derechos de cada objeto y el marco jurídico del país donde se reutiliza.
-- Smithsonian: solo los activos identificados con CC0 se incorporan como reutilizables sin permiso del Smithsonian. Pueden existir derechos de terceros.
-- The Met: solo las obras identificadas con el ícono OA pertenecen al programa CC0; no extender esa condición a todo el sitio.
-
-El filtro “Para imprimir” reúne recursos pensados para llevar al papel, pero cada ficha conserva su propia nota de derechos y su enlace a la fuente.
-
-
-### Segunda tanda · colecciones visuales y estudio · versión 0.5.0
-
-Se sumaron seis fichas:
-
-- Aves del mundo — Library of Congress.
-- Vida rural y trabajo en el campo — Library of Congress.
-- Jardines, flores y huertas — Library of Congress.
-- Carteles históricos — Library of Congress / Poster House.
-- Mapas históricos de ciudades — Library of Congress.
-- OpenStax — biblioteca de libros de estudio descargables en PDF.
-
-OpenStax publica sus libros bajo CC BY-NC-SA 4.0: permite compartir y adaptar con atribución y compartir bajo la misma licencia, pero no permite usos comerciales. AUTONOMÍA debe mantener esta restricción visible y no presentar esos libros como material de libre uso comercial.
-
-Las colecciones temáticas de Library of Congress se presentan como “Free to Use and Reuse”; se mantiene la revisión de cada registro individual y de las normas aplicables fuera de Estados Unidos.
+La cantidad no es el objetivo. La confianza y la descarga directa sí.
