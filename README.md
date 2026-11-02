@@ -108,3 +108,27 @@ Fuentes institucionales de referencia:
 - Biblioteca Nacional, servicios online: https://www.bn.gob.ar/biblioteca/servicios/online
 - Biblioteca Nacional de España, BNE Digital: https://bnedigital.bne.es/
 - Project Gutenberg: https://www.gutenberg.org/
+
+
+## Colección de materiales para imprimir · versión 0.4.0
+
+Se agregaron ocho fichas nuevas:
+
+- Mapas escolares de la provincia del Neuquén — IGN.
+- Mapas de Argentina y planisferios — IGN.
+- Mapoteca Educ.ar — mapas para dibujar, pintar, descargar e imprimir.
+- Educ.ar — libros, cuadernillos y actividades.
+- Juegos históricos para imprimir y recortar — Library of Congress.
+- Libros infantiles clásicos ilustrados — Library of Congress.
+- Smithsonian Open Access — imágenes identificadas con CC0.
+- The Met Open Access — imágenes identificadas con OA / CC0.
+
+### Regla de reutilización
+
+- IGN declara sus mapas escolares bajo CC BY-SA 4.0: atribuir la fuente y mantener la misma licencia al compartir adaptaciones.
+- Educ.ar y Mapoteca se incorporan como portales de acceso; la licencia debe revisarse en cada recurso.
+- Library of Congress presenta colecciones seleccionadas como “Free to Use and Reuse”; verificar la nota de derechos de cada objeto y el marco jurídico del país donde se reutiliza.
+- Smithsonian: solo los activos identificados con CC0 se incorporan como reutilizables sin permiso del Smithsonian. Pueden existir derechos de terceros.
+- The Met: solo las obras identificadas con el ícono OA pertenecen al programa CC0; no extender esa condición a todo el sitio.
+
+El filtro “Para imprimir” reúne recursos pensados para llevar al papel, pero cada ficha conserva su propia nota de derechos y su enlace a la fuente.
