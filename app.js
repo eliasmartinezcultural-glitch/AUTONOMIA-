@@ -7,7 +7,7 @@ const search = document.querySelector("#search-input");
 
 const categoryNames = {
   libros: "Libro", documentos: "Documento", educacion: "Educación",
-  guias: "Guía", imprimir: "Para imprimir", otros: "Colección / recurso"
+  guias: "Guía", imprimir: "Para imprimir", contactos: "Contacto útil", otros: "Colección / recurso"
 };
 
 function safeText(value = "") {
