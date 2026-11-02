@@ -9,7 +9,7 @@ const reviewNote = document.querySelector("#review-note");
 const reviewCount = document.querySelector("#review-count");
 const categoryNames = { libros:"Libro", documentos:"Documento", educacion:"Educación", guias:"Guía", imprimir:"Para imprimir", contactos:"Contacto útil", otros:"Archivo" };
 function safeText(value = "") {
-  return String(value).replace(/[&<>"\']/g, char => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"\':"&quot;", "\'":"&#039;" })[char]);
+  return String(value).replace(/[&<>"']/g, char => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;" })[char]);
 }
 function localArchivePath(value = "") {
   const path = String(value).trim();
