@@ -213,14 +213,16 @@ La selección final depende de la verificación de derechos, no de completar cuo
 6. Buscar recursos abiertos para trabajo/emprendimientos, oficios, accesibilidad y vida rural.
 7. Publicar cada archivo individualmente solo después de la comprobación final.
 
-### Incorporaciones completadas en AUTONOMÍA 0.7.4
+### Incorporaciones completadas en AUTONOMÍA 0.7.6
 
 - El gaucho Martín Fierro — José Hernández.
 - La vuelta de Martín Fierro — José Hernández.
 - Cuentos de amor, de locura y de muerte — Horacio Quiroga.
 - El matadero — Esteban Echeverría.
 
-Los cuatro archivos están alojados en `archivos/libros/`, tienen ficha local y pasan el filtro de publicación del motor. Los tres textos de Project Gutenberg conservan su licencia completa; la transcripción de `El matadero` conserva atribución y CC BY-SA 4.0.
+Los seis archivos están alojados en `archivos/libros/`, tienen ficha local y pasan el filtro de publicación del motor. Cinco textos de Project Gutenberg conservan su licencia completa; la transcripción de `El matadero` conserva atribución y CC BY-SA 4.0.
+- Marianela — Benito Pérez Galdós.
+- El enemigo — Jacinto Octavio Picón.
 
 **Principio rector:** AUTONOMÍA debe ser una puerta confiable hacia materiales que la gente realmente pueda usar. La amplitud se construye con investigación y criterio, no relajando los derechos ni llenando estantes con enlaces externos.
 
