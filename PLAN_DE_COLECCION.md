@@ -214,3 +214,8 @@ La selección final depende de la verificación de derechos, no de completar cuo
 7. Publicar cada archivo individualmente solo después de la comprobación final.
 
 **Principio rector:** AUTONOMÍA debe ser una puerta confiable hacia materiales que la gente realmente pueda usar. La amplitud se construye con investigación y criterio, no relajando los derechos ni llenando estantes con enlaces externos.
+
+
+## 11. Expansión internacional
+
+La investigación global de museos, bibliotecas, universidades, repositorios educativos, organismos científicos y bases de datos está documentada en [MAPA_GLOBAL_DE_FUENTES_Y_LICENCIAS.md](MAPA_GLOBAL_DE_FUENTES_Y_LICENCIAS.md). Ese documento incluye criterios internacionales de copyright, licencias CC, derechos conexos, restricciones de bases de datos, un semáforo de riesgo y un protocolo de verificación por archivo. Debe consultarse antes de incorporar materiales de fuentes internacionales.
