@@ -238,7 +238,7 @@ Los doce archivos están alojados en `archivos/libros/`, tienen ficha local y pa
 La investigación global de museos, bibliotecas, universidades, repositorios educativos, organismos científicos y bases de datos está documentada en [MAPA_GLOBAL_DE_FUENTES_Y_LICENCIAS.md](MAPA_GLOBAL_DE_FUENTES_Y_LICENCIAS.md). Ese documento incluye criterios internacionales de copyright, licencias CC, derechos conexos, restricciones de bases de datos, un semáforo de riesgo y un protocolo de verificación por archivo. Debe consultarse antes de incorporar materiales de fuentes internacionales.
 
 
-## 12. Navegación pública por actividades · AUTONOMÍA 0.8.0
+## 12. Navegación pública por actividades · AUTONOMÍA 0.8.1
 
 La experiencia pública adopta diez categorías generales y comprensibles:
 
