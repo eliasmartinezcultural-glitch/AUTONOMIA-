@@ -1,6 +1,6 @@
 {
   "name": "AUTONOMÍA",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "description": "Vidriera digital curada: obras terminadas de terceros, con procedencia, derechos y acceso identificados.",
   "files": [
     {
@@ -1321,6 +1321,30 @@
       ],
       "publicationStatus": "publicado",
       "filePath": "archivos/libros/marianela-benito-perez-galdos.txt",
+      "rightsVerified": true
+    },
+    {
+      "id": "el-enemigo-jacinto-octavio-picon-pg29137",
+      "title": "El enemigo",
+      "description": "Novela de Jacinto Octavio Picón, en una segunda edición española de 1887. Texto completo en español con el aviso de propiedad de la edición histórica y la licencia completa de Project Gutenberg.",
+      "category": "libros",
+      "author": "Jacinto Octavio Picón (1852–1923)",
+      "format": "TXT",
+      "territory": "España · Mundo hispanohablante",
+      "sourceName": "Project Gutenberg · eBook #29137 · segunda edición de 1887",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/29137",
+      "rightsLabel": "Obra original en dominio público en Argentina · licencia completa conservada",
+      "rightsNote": "Jacinto Octavio Picón falleció en 1923. Bajo el plazo general de 70 años del art. 5 de la Ley 11.723, la obra original ingresó al dominio público argentino el 01/01/1994. El archivo conserva el aviso histórico de la edición y la licencia completa de Project Gutenberg.",
+      "tags": [
+        "literatura española",
+        "novela",
+        "Jacinto Octavio Picón",
+        "siglo XIX",
+        "lectura",
+        "clásicos"
+      ],
+      "publicationStatus": "publicado",
+      "filePath": "archivos/libros/el-enemigo-jacinto-octavio-picon.txt",
       "rightsVerified": true
     }
   ],
