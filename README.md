@@ -2,6 +2,22 @@
 
 Vidriera y biblioteca de acceso: descubre, selecciona, cataloga y acerca materiales terminados creados por terceros. AUTONOMÍA no produce los contenidos de su colección.
 
+## LEY FUNDAMENTAL: AUTONOMÍA ES UNA VIDRIERA
+
+**AUTONOMÍA NO CREA CONTENIDOS. PONE AL ALCANCE OBRAS YA TERMINADAS POR OTROS AUTORES E INSTITUCIONES.**
+
+Esta regla está por encima de cualquier decisión de diseño, programación, crecimiento o catálogo.
+
+- No escribimos, encargamos, producimos, ilustramos, traducimos, adaptamos, completamos ni reescribimos los materiales de la colección.
+- No modificamos los archivos originales ni presentamos obras ajenas como propias.
+- No fabricamos publicaciones para llenar estantes. Si hay pocos materiales buenos, mostramos pocos.
+- Sí investigamos, descubrimos, seleccionamos, verificamos, clasificamos y catalogamos obras terminadas de terceros.
+- Sí redactamos fichas descriptivas propias y neutrales: título, autoría, procedencia, tema, fecha, formato, territorio, licencia y forma de acceso. La ficha orienta; no reemplaza ni recrea la obra.
+- Preferimos enlazar al repositorio legítimo de origen. Solo alojamos una copia cuando la situación jurídica permite expresamente esa redistribución.
+- Respetamos autoría, integridad, atribución, licencias y condiciones de uso.
+
+**Nuestra tarea es ser una vidriera y un puente: encontrar lo que ya existe, darle orden, contexto y visibilidad, y acercar a las personas a la obra de su autor.**
+
 ## Principios editoriales
 
 1. Empezar por San Patricio del Chañar, luego Neuquén y Patagonia, Argentina y el mundo hispanohablante.
@@ -19,9 +35,9 @@ Vidriera y biblioteca de acceso: descubre, selecciona, cataloga y acerca materia
 - `catalogo.json`: fichas descriptivas de los materiales.
 - `archivos/`: espacio para archivos que AUTONOMÍA tenga derecho a alojar.
 
-## Cómo agregar un material
+## Cómo agregar una ficha de una obra existente
 
-Agregar un objeto dentro del arreglo `files` de `catalogo.json`:
+Solo se incorpora una ficha de una obra ya terminada, creada por un tercero y localizada en una fuente legítima. Nunca se crea una obra para agregarla al catálogo. Agregar el registro descriptivo dentro del arreglo `files` de `catalogo.json`:
 
 ```json
 {
